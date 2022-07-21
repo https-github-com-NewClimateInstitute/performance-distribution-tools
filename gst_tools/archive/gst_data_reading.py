@@ -13,26 +13,13 @@
 # Load modules etc.
 
 import re
-import yaml
+import logging
 
 import pandas as pd
-import seaborn as sns
-import sys
 
 
 # =========================
 # Read or load data
-
-
-# TODO - delete / remove this part of the setup, now redundant and will let user choose.
-#yaml_full_filename = '../configuration' + 'data-config.yaml'
-
-#print('')
-#print('Reading user params from ' + yaml_full_filename)
-#print('')
-
-#with open(yaml_full_filename, 'rb') as f:
-#    data_files_dict = yaml.load(f.read())
 
 
 #current_PRIMAPhist_filename = 'PRIMAP-hist_no_extrapolation_v1.1_06-Mar-2017.csv'
@@ -51,16 +38,16 @@ def read_historic_emissions_data(variable, sector):
     The data should all be in CO2e, but the exact unit can be requested, e.g. tCO2e
     """
 
-    print('')
-    print('===========================')
-    print('Reading in historic data')
-    print('===========================')
-    print('')
+    logging.info('')
+    logging.info('===========================')
+    logging.info('Reading in historic data')
+    logging.info('===========================')
+    logging.info('')
 
     # locate the historic data directory
     data_folder = 'data/'
     file_to_read = (data_folder + data_files_dict['historic_data']['emissions_data'])
-    print('reading files from: ' + file_to_read)
+    logging.info('reading files from: ' + file_to_read)
 
     # basic read-in of data
     hist_data = pd.read_csv(file_to_read)
@@ -95,35 +82,35 @@ def read_historic_emissions_data(variable, sector):
         hist_emis_data /= 1000
     else:
         new_unit = cur_unit
-        print('Conversion not defined. Emissions data units remain as ' + new_unit)
+        logging.warning('Conversion not defined. Emissions data units remain as ' + new_unit)
 
-    print('...')
-    print('emissions data reading complete')
-    print('===========================')
-    print('')
+    logging.info('...')
+    logging.info('emissions data reading complete')
+    logging.info('===========================')
+    logging.info('')
 
     return hist_emis_data, new_unit
 
 
 def read_historic_population_data():
 
-    print('')
-    print('===========================')
-    print('Reading in population data')
-    print('===========================')
-    print('')
+    logging.info('')
+    logging.info('===========================')
+    logging.info('Reading in population data')
+    logging.info('===========================')
+    logging.info('')
 
     # locate the historic data directory
     data_folder = 'data/'
     file_to_read = (data_folder + current_population_data_filename)
-    print('reading files from: ' + file_to_read)
+    logging.info('reading files from: ' + file_to_read)
 
     # basic read-in of data
     pop_data = pd.read_csv(file_to_read)
 
     columns_available = pop_data.columns
-    print('Columns in historic UN population data are: ')
-    print(columns_available)
+    logging.info('Columns in historic UN population data are: ')
+    logging.info(columns_available)
 
     pop_years = [y for y in pop_data[pop_data.columns] if (re.match(r"[0-9]{4,7}$", str(y)) is not None)]
     pop_data = pop_data.set_index('country')
@@ -131,16 +118,16 @@ def read_historic_population_data():
     pop_data = pop_data[pop_years]
 
     if pop_unit == 'ThousandPers':
-        print('Converting population from ThousandPers to Pers')
+        logging.info('Converting population from ThousandPers to Pers')
         pop_unit = 'Pers'
         pop_data *= 1000
     else:
-        print('keeping population data as ' + pop_unit)
+        logging.info('keeping population data as ' + pop_unit)
 
-    print('...')
-    print('population data reading complete')
-    print('===========================')
-    print('')
+    logging.info('...')
+    logging.info('population data reading complete')
+    logging.info('===========================')
+    logging.info('')
 
     return pop_data, pop_unit
 
@@ -172,16 +159,16 @@ def read_NDC_coverage_data(optimistic):
     The processed data can then be plotted using #TODO
     """
 
-    print('')
-    print('===========================')
-    print('Reading in NDC coverage data')
-    print('===========================')
-    print('')
+    logging.info('')
+    logging.info('===========================')
+    logging.info('Reading in NDC coverage data')
+    logging.info('===========================')
+    logging.info('')
 
     # locate the historic data directory
     data_folder = 'data/'
     file_to_read = (data_folder + current_NDC_coverage_data_filename)
-    print('reading files from: ' + file_to_read)
+    logging.info('reading files from: ' + file_to_read)
 
     # basic read-in of data
     ndc_cov_data = pd.read_csv(file_to_read)
@@ -218,10 +205,10 @@ def read_NDC_coverage_data(optimistic):
         # 2. assume 'no information' means not included
         ndc_coverage = nn
 
-    print('...')
-    print('NDC coverage data reading complete')
-    print('===========================')
-    print('')
+    logging.info('...')
+    logging.info('NDC coverage data reading complete')
+    logging.info('===========================')
+    logging.info('')
 
     return ndc_coverage
 

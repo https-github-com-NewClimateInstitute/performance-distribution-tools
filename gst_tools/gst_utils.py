@@ -13,7 +13,7 @@
 # =====================================================
 
 import re
-import sys
+import logging
 
 import pandas as pd
 import numpy as np
@@ -87,7 +87,7 @@ def calculate_trends(df, num_years_trend=10):
     """
 
     # disp average used for trend
-    print('Averaging trend over ' + str(num_years_trend) + ' years.')
+    logging.info('Averaging trend over ' + str(num_years_trend) + ' years.')
 
     # calculate annual % changes
     df_perc_change = df.pct_change(axis='columns') * 100
@@ -140,8 +140,8 @@ def change_first_year(df, new_start_year):
     df = check_column_order(df)
 
     # tell the user what happened
-    print('First year of data available is now ' + str(new_start_year))
-    print('Last year of data available is ' + str(last_year))
+    logging.info('First year of data available is now ' + str(new_start_year))
+    logging.info('Last year of data available is ' + str(last_year))
 
     return df
 
@@ -222,8 +222,8 @@ def ensure_common_countries(df1, df2):
     df2_countries = df2['country'].unique()
     common_countries = list(set(df1_countries).intersection(df2_countries))
 
-    print('Common countries are: ')
-    print(common_countries)
+    logging.info('Common countries are: ')
+    logging.info(common_countries)
     # TODO - spit out list of countries not found!
 
     # reset matrices
@@ -240,19 +240,17 @@ def calculate_diff_since_yearX(df_abs, yearX):
     For example, % difference relative to 1990 in all years.
     """
 
-    print('Calculating difference compared to ' + yearX)
+    logging.info('Calculating difference compared to ' + yearX)
 
     # first, check that the desired year is in the data!
     if yearX not in df_abs.columns:
-        print('The year you have selected for relative calculations ('
+        logging.info('The year you have selected for relative calculations ('
               + str(yearX) + ') is not available, please try again.')
         return
 
     # calculate all columns relative to the chosen year, first in absolute terms, then %
-    df_abs_diff = df_abs.subtract(df_abs[yearX], axis='index')
-    # print(df_abs_diff)
-    df_perc_diff = 100 * df_abs_diff.divide(df_abs[yearX], axis='index')
-    # print(df_perc_diff)
+    df_abs_diff = df_abs.subtract(df_abs[yearX], axis='index')    
+    df_perc_diff = 100 * df_abs_diff.divide(df_abs[yearX], axis='index')    
 
     return df_abs_diff, df_perc_diff
 
@@ -275,32 +273,32 @@ def verify_data_format(df):
     if column_check:
         verified = True
     else:
-        print('Missing columns in dataframe! Columns missing are:')
-        print(set(columns_required) - set(list(df.columns)))
+        logging.warning('Missing columns in dataframe! Columns missing are:')
+        logging.warning(set(columns_required) - set(list(df.columns)))
         verified = False
         return verified
 
     # check the uniqueness of the data
     if len(df['variable'].unique()) != 1:
-        print('WARNING: the "variable" is non-unique! Please check your input data!')
+        logging.warning('WARNING: the "variable" is non-unique! Please check your input data!')
         verified = False
         return verified
 
     if len(df['unit'].unique()) != 1:
-        print('WARNING: the "units" are non-unique! Please check your input data!')
+        logging.warning('WARNING: the "units" are non-unique! Please check your input data!')
         verified = False
         return verified
 
     # check that no countries are repeated
     if len(df['country'].unique()) != len(df['country']):
-        print('WARNING: Some countries appear to be repeated! Please check your input data!')
+        logging.warning('WARNING: Some countries appear to be repeated! Please check your input data!')
         verified = False
         return verified
 
     # make sure that there are some year columns
     year_cols = [y for y in df[df.columns] if (re.match(r"[0-9]{4,7}$", str(y)) is not None)]
     if len(year_cols) == 0:
-        print("WARNING: there don't appear to be any year columns! Please check your input data!")
+        logging.warning("WARNING: there don't appear to be any year columns! Please check your input data!")
         verified = False
         return verified
 

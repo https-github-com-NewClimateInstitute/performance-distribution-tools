@@ -10,7 +10,8 @@
 
 # =====================================================
 
-import re, sys, os
+import os
+import logging
 
 import pandas as pd
 import numpy as np
@@ -88,15 +89,15 @@ def make_histogram(df, unit_,
     """
 
     # announce the plot..
-    print('---------')
-    print('Making  ' + str(plot_name) + ' plot.')
-    print('---------')
+    logging.info('---------')
+    logging.info('Making  ' + str(plot_name) + ' plot.')
+    logging.info('---------')
 
     # Check the data - needs to not be, for example, all zeros
     if len(df.unique()) == 1:
-        print('---------')
-        print('All values in the series are the same! Exiting plotting routine for ' + str(plot_name))
-        print('---------')
+        logging.info('---------')
+        logging.info('All values in the series are the same! Exiting plotting routine for ' + str(plot_name))
+        logging.info('---------')
         return
 
     # get the value here in case it's excluded as an outlier
@@ -126,26 +127,23 @@ def make_histogram(df, unit_,
         # k = 1.5 -> outlier; k = 3 -> far out
         # TODO - get full and proper reference for this!!!
 
-        print('-----------')
-        print('Identifying and removing outliers')
+        logging.info('-----------')
+        logging.info('Identifying and removing outliers')
 
         # calculate limits
         q75, q25 = np.percentile(df, [75, 25])
         iqr = q75 - q25
         tukey_min = q25 - ktuk * iqr
         tukey_max = q75 + ktuk * iqr
-        # for testing:
-        # print('tukey_min is ' + str(tukey_min))
-        # print('tukey_max is ' + str(tukey_max))
-
+        
         # Tell the user what the outliers are:
         lower_outliers = df[df < tukey_min]
-        print('lower outliers are:')
-        print(lower_outliers)
+        logging.info('lower outliers are:')
+        logging.info(lower_outliers)
         upper_outliers = df[df > tukey_max]
-        print('upper outliers are: ')
-        print(upper_outliers)
-        print('---')
+        logging.info('upper outliers are: ')
+        logging.info(upper_outliers)
+        logging.info('---')
 
         noutliers = len(lower_outliers) + len(upper_outliers)
 
@@ -183,7 +181,7 @@ def make_histogram(df, unit_,
 
         # determine bin edges
         bins_calc = range(int((0 - (1 + nbins / 2) * bin_width)), int((0 + (1 + nbins / 2) * bin_width)), bin_width)
-        print('bins set to ' + str(bins_calc))
+        logging.info('bins set to ' + str(bins_calc))
 
     else:
         if maximum < 25:
@@ -198,7 +196,7 @@ def make_histogram(df, unit_,
 
             # determine bin edges
             bins_calc = range(0, int(1 + nbins), bin_width)
-            print('bins set to ' + str(bins_calc))
+            logging.info('bins set to ' + str(bins_calc))
 
         else:
             # use inbuilt Freedman-Diaconis
@@ -337,9 +335,9 @@ def make_histogram_peaking(df, var, unit_, start_year, end_year,
 
     # Check the data - needs to not be, for example, all zeros
     if len(df.unique()) == 1:
-        print('---------')
-        print('All values in the series are the same! Exiting plotting routine for ' + str(var))
-        print('---------')
+        logging.warning('---------')
+        logging.warning('All values in the series are the same! Exiting plotting routine for ' + str(var))
+        logging.warning('---------')
         return
 
     # set a style
