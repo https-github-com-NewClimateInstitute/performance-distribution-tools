@@ -70,8 +70,8 @@ def set_uba_palette():
 def make_histogram(df, unit_,
                    xlabel='', title='', sourcename='unspecified',
                    remove_outliers=False, ktuk=3,
-                   save_plot=False, plot_name='',
-                   selected_country=''):
+                   plot_name='', selected_country='',
+                   save_plot=False, output_dir=None, dpi=600):
 
     """
     This is based on the make_simple_histogram function but caters to data that
@@ -307,7 +307,7 @@ def make_histogram(df, unit_,
 
     # save to file
     if save_plot:
-        filepath = os.path.join('output', 'plots')
+        filepath = output_dir or os.path.join('output', 'plots')
         if selected_country:
             fname = ('basic_histogram-' + plot_name + '-' + to_name(selected_country) + '.png')
         else:
@@ -315,14 +315,15 @@ def make_histogram(df, unit_,
         if not os.path.exists(filepath):
             os.makedirs(filepath)
         filename = os.path.join(filepath, fname)
-        plt.savefig(filename, format='png', dpi=600, bbox_inches='tight')
+        plt.savefig(filename, format='png', dpi=dpi, bbox_inches='tight')
         plt.close()
 
     # show the plot
     plt.show()
 
 
-def make_histogram_peaking(df, var, unit_, start_year, end_year, save_plot=False):
+def make_histogram_peaking(df, var, unit_, start_year, end_year, 
+                           save_plot=False, output_dir=None, dpi=450):
 
     """
     This function is specifically written to plot the peaking year of a variable for a range
@@ -403,19 +404,20 @@ def make_histogram_peaking(df, var, unit_, start_year, end_year, save_plot=False
 
     # save to file
     if save_plot:
-        filepath = os.path.join('output', 'plots')
+        filepath = output_dir or os.path.join('output', 'plots')
         fname = ('basic_histogram-peaking-since-' + str(start_year) + '-' + var + '.png')
         if not os.path.exists(filepath):
             os.makedirs(filepath)
         filename = os.path.join(filepath, fname)
-        plt.savefig(filename, format='png', dpi=450, bbox_inches='tight')
+        plt.savefig(filename, format='png', dpi=dpi, bbox_inches='tight')
         plt.close()
 
     # show the plot
     plt.show()
 
 
-def plot_facet_grid_countries(df, variable, value, main_title='', plot_name='', save_plot=False):
+def plot_facet_grid_countries(df, variable, value, main_title='', plot_name='', 
+                              save_plot=False, output_dir=None, dpi=None):
 
     """
     plot a facet grid of variables for a range of countries. Can be used to, e.g. assess
@@ -467,17 +469,18 @@ def plot_facet_grid_countries(df, variable, value, main_title='', plot_name='', 
     grid.fig.suptitle(main_title, fontweight='bold', fontsize=15)
 
     if save_plot:
-        filepath = os.path.join('output', 'plots')
+        filepath = output_dir or os.path.join('output', 'plots')
         # grid.map(horiz_zero_line)
         fname = ('facetgrid-' + plot_name + '-' + value + '.pdf')
         if not os.path.exists(filepath):
             os.makedirs(filepath)
         filename = os.path.join(filepath, fname)
-        plt.savefig(filename, format='pdf', bbox_inches='tight')
+        plt.savefig(filename, format='pdf', bbox_inches='tight', dpi=dpi)
         plt.close()
 
 
-def peaking_barplot(summary_data, variable, max_year, save_plot=False):
+def peaking_barplot(summary_data, variable, max_year, 
+                    save_plot=False, output_dir=None, dpi=600):
 
     uba_palette = set_uba_palette()
     sns.set_palette(uba_palette)
@@ -502,11 +505,11 @@ def peaking_barplot(summary_data, variable, max_year, save_plot=False):
     plt.title("Status of " + variable + "\nin " + max_year)
 
     if save_plot:
-        filepath = os.path.join('output', 'plots')
+        filepath = output_dir or os.path.join('output', 'plots')
         fname = ('peaking-categories-' + variable + '.png')
         if not os.path.exists(filepath):
             os.makedirs(filepath)
         filename = os.path.join(filepath, fname)
-        plt.savefig(filename, format='png', dpi=600, bbox_inches='tight')
+        plt.savefig(filename, format='png', dpi=dpi, bbox_inches='tight')
         plt.close()
 
