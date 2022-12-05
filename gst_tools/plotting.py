@@ -10,12 +10,13 @@ from shortcountrynames import to_name
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import seaborn as sns
+from math import log10, floor
 
 # ======================
 # Functions for plotting
 # ======================
 
-def add_selected_country(axs, xmin, xmax, selected_country, country_value, unit, uba_colours):
+def add_selected_country(axs, xmin, xmax, selected_country, country_value, unit, uba_colours, stats_font_size=9):
     if (country_value > xmin) & (country_value < xmax):
         # Indicate it on the plot
         axs.axvline(x=country_value, ymax=0.9, linewidth=1.5, color=uba_colours['uba_dark_purple'])
@@ -25,26 +26,27 @@ def add_selected_country(axs, xmin, xmax, selected_country, country_value, unit,
         ypos = 0.65 * ymax
         axs.annotate((to_name(selected_country) + ' ' + "\n{:.2g}".format(country_value)) + ' ' + unit,
                     xy=(country_value, ypos), xycoords='data',
-                    fontsize=9, color=uba_colours['uba_dark_purple'],
+                    fontsize=stats_font_size, color=uba_colours['uba_dark_purple'],
                     bbox=dict(facecolor='white', edgecolor=uba_colours['uba_dark_purple'], alpha=0.75)
                     )
     else:
         axs.annotate((to_name(selected_country) + ' ' + "\n{:.2g}".format(country_value)) + ' ' + unit,
                     xy=(.75, .65), xycoords=axs.transAxes,
-                    fontsize=9, color=uba_colours['uba_dark_purple'],
+                    fontsize=stats_font_size, color=uba_colours['uba_dark_purple'],
                     bbox=dict(facecolor='white', edgecolor=uba_colours['uba_dark_purple'], alpha=0.75)
                     )
 
-def annotate_plot(axs, xlabel, title, unit, sourcename, maximum, minimum, mean, median, npts, remove_outliers, noutliers):
-    axs.annotate(("Data source: \n " + sourcename + "\n"
-                  "\n Maximum  = {:.2f}".format(maximum) +
-                  "\n Minimum   = {:.2f}".format(minimum) +
-                  "\n Mean        = {:.2f}".format(mean) +
-                  "\n Median     = {:.2f}".format(median) +
-                  "\n Number of \n countries  = {:.0f}".format(npts)
+def annotate_plot(axs, xlabel, title, unit, sourcename, maximum, minimum, mean, median, npts, remove_outliers, noutliers, label_font_size=12, title_font_size=14, stats_font_size=10, sig_dig=2):
+    axs.annotate(("Data source:\n " + sourcename + "\n" +
+                  "\nMaximum = "   + str(sig_figs(maximum, sig_dig)) +                    # {:.2f}".format(maximum) +
+                  "\nMinimum = "   + str(sig_figs(minimum, sig_dig)) +                    # {:.2f}".format(minimum) +
+                  "\nMean = "      + str(sig_figs(mean, sig_dig))    +                    # {:.2f}".format(mean) +
+                  "\nMedian = "    + str(sig_figs(median, sig_dig))  +                    # {:.2f}".format(median) +
+                  "\nCountries = " + str(npts)                                            # {:.0f}".format(npts)
                   ),
-                 xy=(1.05, 0.6), xycoords=axs.transAxes,
-                 fontsize=9, color='black',
+                 # Previously set position (upper right corner): xy=(1.05, 0.6)
+                 xy=(1.05, 0.2), xycoords=axs.transAxes,
+                 fontsize=stats_font_size, color='black',
                  bbox=dict(facecolor='white', edgecolor='grey', alpha=0.75))
 
     # If some countries were removed, indicate it on the plot
@@ -54,13 +56,15 @@ def annotate_plot(axs, xlabel, title, unit, sourcename, maximum, minimum, mean, 
         else:
             sing_or_plur = ' outliers'
         axs.annotate(('  ' + str(noutliers) + sing_or_plur + ' not shown'),
-                     xy=(1.05, 0.53), xycoords=axs.transAxes,
-                     fontsize=8, color='black')
+                     # Previously set position, just below the stats box: xy=(1.05, 0.53)
+                     xy=(1.02, 0.10), xycoords=axs.transAxes,
+                     fontsize=stats_font_size-2, color='black')
 
     # Label axes and add title
-    axs.set_xlabel((xlabel + ' \n(' + unit + ')'), fontsize=12)
-    axs.set_ylabel('Number of countries', fontsize=12)
-    axs.set_title((title + "\n"), fontweight='bold')
+    axs.set_xlabel((xlabel + ' \n(' + unit + ')'), fontsize=label_font_size)
+    axs.set_ylabel('Number of countries', fontsize=label_font_size)
+    axs.tick_params(axis='both', which='major', labelsize=label_font_size-1)
+    axs.set_title((title + "\n"), fontweight='bold', fontsize=title_font_size)
 
 def calculate_trends(df, num_years_trend=5):
 
@@ -80,7 +84,7 @@ def calculate_trends(df, num_years_trend=5):
 
     return df_perc_change, df_rolling_average, new_unit
 
-def define_plot_name(type, variable, year_of_interest, baseline_year, output_folder):
+def define_plot_name(type, variable, year_of_interest, baseline_year, output_folder, file_type='png'):
     if type != 1 and type != 2 and type != 3 and type != 4:
         raise ValueError('Error. Please provide a valid plot type (either 1, 2, 3 or 4.)')
     else:
@@ -94,7 +98,7 @@ def define_plot_name(type, variable, year_of_interest, baseline_year, output_fol
             type_text = 'Year of peaking'
 
         DESUB = str.maketrans('₀₁₂₃₄₅₆₇₈₉', '0123456789')
-        fname = output_folder + (type_text.lower() + ' ' + variable.lower()).translate(DESUB).replace(' ', '_') + '.png'
+        fname = output_folder + (type_text.lower() + ' ' + variable.lower()).translate(DESUB).replace(' ', '_') + '.' + file_type
 
         return type_text, fname
 
@@ -234,7 +238,13 @@ def get_uba_colours():
 def make_histogram(df, year, unit, plot_type=0, xlabel='', variable_title='', 
                 sourcename='unspecified', save_plot=True, filepath='',
                 remove_outliers=True, ktuk=3,
-                plot_name='', selected_country='', dpi=600):
+                plot_name='', selected_country='',
+                dpi=600, font='Arial', label_font_size=12, title_font_size=14, stats_font_size=10,
+                x_below_countries = 0.31,
+                x_below_arrow = 0.15,
+                x_above_countries = 0.54,
+                x_above_arrow = 0.85
+                ):
 
     """
     This is based on the make_simple_histogram function but caters to data that
@@ -274,7 +284,7 @@ def make_histogram(df, year, unit, plot_type=0, xlabel='', variable_title='',
     sns.set(style='darkgrid')
     sns.set_palette(set_uba_palette())
     uba_colours = get_uba_colours()
-    sns.set(font="Calibri")
+    sns.set(font=font)
     
     if remove_outliers:
         series, noutliers = eliminate_outliers(series, ktuk=ktuk)
@@ -294,17 +304,20 @@ def make_histogram(df, year, unit, plot_type=0, xlabel='', variable_title='',
     xmin, xmax = axs.get_xlim()
 
     if minimum < 0:
-        make_symmetric_around_zero(axs, series, xmin, xmax)
-
+        make_symmetric_around_zero(axs, series, xmin, xmax, stats_font_size=stats_font_size,
+                x_below_countries = x_below_countries,
+                x_below_arrow = x_below_arrow,
+                x_above_countries = x_above_countries,
+                x_above_arrow = x_above_arrow)
 
     # If a country is selected for highlighting, then indicate it on the plot!
     if selected_country:
-        add_selected_country(axs, xmin, xmax, selected_country, country_value, unit, uba_colours)
+        add_selected_country(axs, xmin, xmax, selected_country, country_value, unit, uba_colours, stats_font_size=stats_font_size)
 
     # Annotate the plot with stats
     title = variable_title + ' in ' + str(year)
 
-    annotate_plot(axs, xlabel, title, unit, sourcename, maximum, minimum, mean, median, npts, remove_outliers, noutliers)
+    annotate_plot(axs, xlabel, title, unit, sourcename, maximum, minimum, mean, median, npts, remove_outliers, noutliers, label_font_size=label_font_size, title_font_size=title_font_size, stats_font_size=stats_font_size)
 
     # save to file
     
@@ -312,12 +325,12 @@ def make_histogram(df, year, unit, plot_type=0, xlabel='', variable_title='',
         if selected_country:
             filepath = filepath.replace('/', '/' + to_name(selected_country) + '_')
 
-        plt.savefig(filepath, format='png', dpi=dpi, bbox_inches='tight')
+        plt.savefig(filepath, dpi=dpi, bbox_inches='tight')
         plt.close()
 
     return plt
 
-def make_histogram_peaking(series, var, start_year, end_year, save_plot=False, filepath = '', dpi=450):
+def make_histogram_peaking(series, var, start_year, end_year, save_plot=False, filepath = '', dpi=450, font='Calibri', label_font_size=12, title_font_size=14, stats_font_size=10):
 
     """
     This function is specifically written to plot the peaking year of a variable for a range
@@ -327,7 +340,6 @@ def make_histogram_peaking(series, var, start_year, end_year, save_plot=False, f
     uba_palette = set_uba_palette()
     sns.set_palette(uba_palette)
     sns.set(style="darkgrid", context="paper")
-    sns.set(font="Calibri")
 
     # Check the data - needs to not be, for example, all zeros
     if len(series.unique()) == 1:
@@ -382,13 +394,13 @@ def make_histogram_peaking(series, var, start_year, end_year, save_plot=False, f
                   "\nof which {:.0f} have ".format(nlast) +
                   "\nnot yet reached a maximum (yellow)"),
                  xy=(0.03, 0.82), xycoords=axs.transAxes,
-                 fontsize=10, color='black',
+                 fontsize=stats_font_size, color='black',
                  bbox=dict(facecolor='white', edgecolor='grey', alpha=0.75))
 
     # label axes and add title
-    axs.set_xlabel('Year')
-    axs.set_ylabel('Number of countries')
-    axs.set_title(('Year when ' +  var[0].lower() + var[1:]+ ' peaked'), fontweight='bold')
+    axs.set_xlabel('Year', fontsize=label_font_size)
+    axs.set_ylabel('Number of countries', fontsize=label_font_size)
+    axs.set_title(('Year when ' +  var[0].lower() + var[1:]+ ' peaked'), fontweight='bold', fontsize=title_font_size)
 
     # save to file
     if save_plot:
@@ -401,7 +413,12 @@ def make_histogram_peaking(series, var, start_year, end_year, save_plot=False, f
 
     return plt
 
-def make_symmetric_around_zero(axs, series, xmin, xmax):
+def make_symmetric_around_zero(axs, series, xmin, xmax, stats_font_size=12,
+                x_below_countries = 0.31,
+                x_below_arrow = 0.15,
+                x_above_countries = 0.54,
+                x_above_arrow = 0.85
+            ):
     # reset xmin or xmax
     if np.absolute(xmax) > np.absolute(xmin):
         plt.xlim(-xmax, xmax)
@@ -430,16 +447,20 @@ def make_symmetric_around_zero(axs, series, xmin, xmax):
 
 
     axs.annotate(str(nbelow) + sing_or_plur_below,
-                xytext=(0.31, 1.0), xycoords=axs.transAxes,
-                fontsize=9, color='black',
-                xy=(0.15, 1.01),
+                # Previously set position of the text on the left: xy=(0.31, 1.0)
+                xytext=(x_below_countries, 1.0), xycoords=axs.transAxes,
+                fontsize=stats_font_size, color='black',
+                # Previously set position of the arrow on the left: xy=(0.15, 1.01)
+                xy=(x_below_arrow, 1.01),
                 arrowprops=dict(arrowstyle="-|>", color='black'),
                 bbox=dict(facecolor='white', edgecolor='grey', alpha=0.75)
                 )
     axs.annotate(str(nabove) + sing_or_plur_above,
-                xytext=(0.54, 1.0), xycoords=axs.transAxes,
-                fontsize=9, color='black',
-                xy=(0.85, 1.01),
+                # Previously set position of the text on the right: xy=(0.54, 1.0)
+                xytext=(x_above_countries, 1.0), xycoords=axs.transAxes,
+                fontsize=stats_font_size, color='black',
+                # Previously set position of the arrow on the right: xy=(0.85, 1.01)
+                xy=(x_above_arrow, 1.01),
                 arrowprops=dict(arrowstyle="-|>", color='black'),
                 bbox=dict(facecolor='white', edgecolor='grey', alpha=0.75)
                 )   
@@ -455,6 +476,25 @@ def plot(series, bins_calc, colour):
                  color=colour)
 
     return fig, axs
+
+def sig_figs(x, precision):
+    """
+    Rounds a number to number of significant figures
+    Parameters:
+    - x (float) - the number to be rounded (float)
+    - precision (integer) - the number of significant figures
+    Returns:
+    - float
+    """
+    # Credits to: Matt Gosden, https://mattgosden.medium.com/rounding-to-significant-figures-in-python-2415661b94c3
+
+    if x == 0:
+        return 0
+    else:
+        x = float(x)
+        precision = int(precision)
+
+        return round(x, -int(floor(log10(abs(x)))) + (precision - 1))
 
 def set_uba_palette():
     uba_palette = [

@@ -18,7 +18,7 @@ year_of_interest = '2019'
 
 # In case of plotting difference from a baseline year, specify the baseline year here:
 
-baseline_year = '1990'
+baseline_year = '2000'
 
 # Select the data that you want to plot.
 #   Options are:    1:  'Emissions (Primap-histcr)' (Primap-hist country-reported data)
@@ -27,7 +27,7 @@ baseline_year = '1990'
 #                   4:  'Emissions (IPCC AR6)' (uses emissions data from AR6)
 #                   5:  'Emissions (IPCC AR6)', including indirect emissions
 
-dataset = 5
+dataset = 4
 
 # If plotting Primap emissions data, please select the type of gas that you want to plot.
 # These are the options:
@@ -72,7 +72,7 @@ primap_gas = 'KYOTOGHG (AR4GWP100)'
 # '4'           (Waste)
 # '5'           (Other)
    
-primap_sector = '2'
+primap_sector = '1'
 
 # If plotting energy data, please select the variable that you want to plot
 # Options are:      1: Share of renewables in electricity
@@ -155,7 +155,7 @@ ipcc_gas = 'GHG'
 #                               'Energy systems (indirect)'
 #                               'Industry (indirect)'
 #                               'Transport (indirect)'
-ipcc_sector_or_subsector = 'Transport'
+ipcc_sector_or_subsector = 'Residential [Buildings]'
 
 # Select the data type that you want to plot:
 # Options are:      'absolute'

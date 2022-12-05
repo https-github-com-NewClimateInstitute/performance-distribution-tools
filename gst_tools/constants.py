@@ -89,3 +89,32 @@ gas_names_variable = {
    'KYOTOGHG (SARGWP100)':     'GHG',
    'KYOTOGHG (AR4GWP100)':     'GHG'
       }
+
+# These are parameters that define the sizes and location of several elements in plot types 1, 2 and 3:
+
+# Resolution for plot types 1, 2 and 3
+dpi_types_123 = 600     # Recommended: 600
+
+# Resolution for plot type 4
+dpi_type_4 = 450        # Recommended: 450
+
+# Font style
+font = 'Cambria'        # Default: 'Calibri'
+
+# Font size for the x and y labels
+label_font_size = 16    # Default: 12
+
+# Font size for the plot title
+title_font_size = 16    # Recommended: 14
+
+# Font size for the plot stats and number of countries to the left and right of the distribution
+stats_font_size = 15    # Default: 9
+
+# Plot file type
+file_type = 'svg'       # Default: 'png'
+
+# Location of "number of countries to either side of the distribution"
+x_below_countries = 0.245            # Default: 0.31
+x_below_arrow = 0.175                # Default: 0.15
+x_above_countries =  0.520           # Default: 0.54
+x_above_arrow =   0.830              # Default: 0.85

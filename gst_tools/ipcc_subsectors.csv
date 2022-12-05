@@ -1,64 +1,64 @@
-subsector,1,2,3,4,5,Order
-AFOLU,,CO2,emissions,from,AFOLU,"2,3,4,5"
-AFOLU (indirect),,CO2,emissions,from,AFOLU (indirect),"2,3,4,5"
-"Biomass burning (CH4, N2O)",,CO2,emissions,from,biomass burning,"2,3,4,5"
-"Biomass burning (CH4, N2O) [AFOLU]",,CO2,emissions,from,biomass burning (part of AFOLU),"2,3,4,5"
-Buildings,,CO2,emissions,from,buildings,"2,3,4,5"
-Buildings (indirect),,CO2,emissions,from,buildings (indirect),"2,3,4,5"
-Cement,,CO2,emissions,from,the cement industry,"2,3,4,5"
-Cement [Industry],,CO2,emissions,from,the cement industry,"2,3,4,5"
-Chemicals,,CO2,emissions,from,the chemicals industry,"2,3,4,5"
-Chemicals [Industry],,CO2,emissions,from,the chemicals industry,"2,3,4,5"
-Coal mining fugitive emissions,Fugitive,CO2,emissions,from,coal mining (part of Energy systems),"1,2,3,4,5"
-Coal mining fugitive emissions [Energy systems],Fugitive,CO2,emissions,from,coal mining (part of Energy systems),"1,2,3,4,5"
-Domestic Aviation,,CO2,emissions,from,domestic aviation (part of Transport),"2,3,4,5"
-Domestic Aviation [Transport],,CO2,emissions,from,domestic aviation (part of Transport),"2,3,4,5"
-Electricity & heat,,CO2,emissions,from,electricity & heat,"2,3,4,5"
-Electricity & heat [Energy systems],,CO2,emissions,from,electricity & heat (part of Energy systems),"2,3,4,5"
-Energy systems,,CO2,emissions,from,energy systems,"2,3,4,5"
-Energy systems (indirect),,CO2,emissions,from,energy systems (indirect),"2,3,4,5"
-Enteric Fermentation (CH4),,CH4,emissions,from,enteric fermentation,"2,3,4,5"
-Enteric Fermentation (CH4) [AFOLU],,CH4,emissions,from,enteric fermentation (part of AFOLU),"2,3,4,5"
-Industry,,CO2,emissions,from,industry,"2,3,4,5"
-Industry (indirect),,CO2,emissions,from,industry (indirect),"2,3,4,5"
-Inland Shipping,,CO2,emissions,from,inland shipping (part of Transport),"2,3,4,5"
-Inland Shipping [Transport],,CO2,emissions,from,inland shipping (part of Transport),"2,3,4,5"
-International Aviation,,CO2,emissions,from,international aviation,"2,3,4,5"
-International Aviation [Transport],,CO2,emissions,from,international aviation,"2,3,4,5"
-International Shipping,,CO2,emissions,from,international shipping,"2,3,4,5"
-International Shipping [Transport],,CO2,emissions,from,international shipping (part of Transport),"2,3,4,5"
-"Managed soils and pasture (CO2, N2O)",,CO2,emissions,from,managed soils and pasture,"2,3,4,5"
-"Managed soils and pasture (CO2, N2O) [AFOLU]",,CO2,emissions,from,managed soils and pasture (part of AFOLU),"2,3,4,5"
-"Manure management (N2O, CH4)",,CO2,emissions,from,manure management,"2,3,4,5"
-"Manure management (N2O, CH4) [AFOLU]",,CO2,emissions,from,manure management (part of AFOLU),"2,3,4,5"
-Metals,,CO2,emissions,from,the metals industry,"2,3,4,5"
-Metals [Industry],,CO2,emissions,from,the metals industry,"2,3,4,5"
-Non-CO2 (all buildings),Non-CO2,F-gas,emissions,from,buildings,"2,3,4,5"
-Non-CO2 (all buildings) [Buildings],Non-CO2,F-gas,emissions,from,buildings,"2,3,4,5"
-Non-residential,,CO2,emissions,from,non-residential buildings,"2,3,4,5"
-Non-residential [Buildings],,CO2,emissions,from,non-residential buildings,"2,3,4,5"
-Oil and gas fugitive emissions,Oil and gas fugitive,CO2,emissions,from,energy systems,"1,2,3,4,5"
-Oil and gas fugitive emissions [Energy systems],Oil and gas fugitive,CO2,emissions,from,energy systems,"1,2,3,4,5"
-Other (energy systems),Other,CO2,emissions,from,energy systems,"1,2,3,4,5"
-Other (energy systems) [Energy systems],Other,CO2,emissions,from,energy systems,"1,2,3,4,5"
-Other (industry),Other,CO2,emissions,from,industry,"1,2,3,4,5"
-Other (industry) [Industry],Other,CO2,emissions,from,industry,"1,2,3,4,5"
-Other (transport),Other,CO2,emissions,from,transport,"1,2,3,4,5"
-Other (transport) [Transport],Other,CO2,emissions,from,transport,"1,2,3,4,5"
-Petroleum refining,,CO2,emissions,from,petroleum refining (energy systems),"2,3,4,5"
-Petroleum refining [Energy systems],,CO2,emissions,from,petroleum refining (part of Energy systems),"2,3,4,5"
-Rail,,CO2,emissions,from,rail transport,"1,2,3,4,5"
-Rail [Transport],,CO2,emissions,from,rail transport,"1,2,3,4,5"
-Residential,,CO2,emissions,from,residential buildings,"2,3,4,5"
-Residential [Buildings],,CO2,emissions,from,residential buildings,"2,3,4,5"
-Rice cultivation (CH4),,CH4,emissions,from,rice cultivation (part of AFOLU),"2,3,4,5"
-Rice cultivation (CH4) [AFOLU],,CH4,emissions,from,rice cultivation (part of AFOLU),"2,3,4,5"
-Road,,CO2,emissions,from,road transport,"2,3,4,5"
-Road [Transport],,CO2,emissions,from,road transport,"2,3,4,5"
-Synthetic fertilizer application (N2O),,N2O,emissions,from,synthetic fertiliser application,"2,3,4,5"
-Synthetic fertilizer application (N2O) [AFOLU],,N2O,emissions,from,synthetic fertiliser application (part of AFOLU),"2,3,4,5"
-Total (excl. LULUCF),Total,CO2,emissions,,(excluding LULUCF),"1,2,3,5"
-Transport,,CO2,emissions,from,transport,"2,3,4,5"
-Transport (indirect),,CO2,emissions,from,transport (indirect),"2,3,4,5"
-Waste,,CO2,emissions,from,waste (part of Industry),"2,3,4,5"
-Waste [Industry],,CO2,emissions,from,waste (part of Industry),"2,3,4,5"
+subsector,1,2,3,4,5,Order,Comments
+AFOLU,,CO2,emissions,from,agriculture,"2,3,4,5",AFOLU changed to agriculture
+AFOLU (indirect),,CO2,emissions,from,agriculture (indirect),"2,3,4,5",AFOLU changed to agriculture
+"Biomass burning (CH4, N2O)",,CO2,emissions,from,biomass burning,"2,3,4,5",
+"Biomass burning (CH4, N2O) [AFOLU]",,CO2,emissions,from,biomass burning,"2,3,4,5",
+Buildings,,CO2,emissions,from,buildings,"2,3,4,5",
+Buildings (indirect),,CO2,emissions,from,buildings (indirect),"2,3,4,5",
+Cement,,CO2,emissions,from,the cement industry,"2,3,4,5",
+Cement [Industry],,CO2,emissions,from,the cement industry,"2,3,4,5",
+Chemicals,,CO2,emissions,from,the chemicals industry,"2,3,4,5",
+Chemicals [Industry],,CO2,emissions,from,the chemicals industry,"2,3,4,5",
+Coal mining fugitive emissions,Fugitive,CO2,emissions,from,coal mining,"1,2,3,4,5",
+Coal mining fugitive emissions [Energy systems],Fugitive,CO2,emissions,from,coal mining,"1,2,3,4,5",
+Domestic Aviation,,CO2,emissions,from,domestic aviation,"2,3,4,5",
+Domestic Aviation [Transport],,CO2,emissions,from,domestic aviation,"2,3,4,5",
+Electricity & heat,,CO2,emissions,from,electricity & heat,"2,3,4,5",
+Electricity & heat [Energy systems],,CO2,emissions,from,electricity & heat,"2,3,4,5",
+Energy systems,,CO2,emissions,from,energy systems,"2,3,4,5",
+Energy systems (indirect),,CO2,emissions,from,energy systems (indirect),"2,3,4,5",
+Enteric Fermentation (CH4),,CH4,emissions,from,enteric fermentation,"2,3,4,5",
+Enteric Fermentation (CH4) [AFOLU],,CH4,emissions,from,enteric fermentation,"2,3,4,5",
+Industry,,CO2,emissions,from,industry,"2,3,4,5",
+Industry (indirect),,CO2,emissions,from,industry (indirect),"2,3,4,5",
+Inland Shipping,,CO2,emissions,from,inland shipping,"2,3,4,5",
+Inland Shipping [Transport],,CO2,emissions,from,inland shipping,"2,3,4,5",
+International Aviation,,CO2,emissions,from,international aviation,"2,3,4,5",
+International Aviation [Transport],,CO2,emissions,from,international aviation,"2,3,4,5",
+International Shipping,,CO2,emissions,from,international shipping,"2,3,4,5",
+International Shipping [Transport],,CO2,emissions,from,international shipping,"2,3,4,5",
+"Managed soils and pasture (CO2, N2O)",,CO2,emissions,from,managed soils and pasture,"2,3,4,5",
+"Managed soils and pasture (CO2, N2O) [AFOLU]",,CO2,emissions,from,managed soils and pasture,"2,3,4,5",
+"Manure management (N2O, CH4)",,CO2,emissions,from,manure management,"2,3,4,5",
+"Manure management (N2O, CH4) [AFOLU]",,CO2,emissions,from,manure management,"2,3,4,5",
+Metals,,CO2,emissions,from,the metals industry,"2,3,4,5",
+Metals [Industry],,CO2,emissions,from,the metals industry,"2,3,4,5",
+Non-CO2 (all buildings),Non-CO2,F-gas,emissions,from,buildings,"2,3,4,5",
+Non-CO2 (all buildings) [Buildings],Non-CO2,F-gas,emissions,from,buildings,"2,3,4,5",
+Non-residential,,CO2,emissions,from,non-residential buildings,"2,3,4,5",
+Non-residential [Buildings],,CO2,emissions,from,non-residential buildings,"2,3,4,5",
+Oil and gas fugitive emissions,Oil and gas fugitive,CO2,emissions,from,energy systems,"1,2,3,4,5",
+Oil and gas fugitive emissions [Energy systems],Oil and gas fugitive,CO2,emissions,from,energy systems,"1,2,3,4,5",
+Other (energy systems),Other,CO2,emissions,from,energy systems,"1,2,3,4,5",
+Other (energy systems) [Energy systems],Other,CO2,emissions,from,energy systems,"1,2,3,4,5",
+Other (industry),Other,CO2,emissions,from,industry,"1,2,3,4,5",
+Other (industry) [Industry],Other,CO2,emissions,from,industry,"1,2,3,4,5",
+Other (transport),Other,CO2,emissions,from,transport,"1,2,3,4,5",
+Other (transport) [Transport],Other,CO2,emissions,from,transport,"1,2,3,4,5",
+Petroleum refining,,CO2,emissions,from,petroleum refining,"2,3,4,5",
+Petroleum refining [Energy systems],,CO2,emissions,from,petroleum refining,"2,3,4,5",
+Rail,,CO2,emissions,from,rail transport,"1,2,3,4,5",
+Rail [Transport],,CO2,emissions,from,rail transport,"1,2,3,4,5",
+Residential,,CO2,emissions,from,residential buildings,"2,3,4,5",
+Residential [Buildings],,CO2,emissions,from,residential buildings,"2,3,4,5",
+Rice cultivation (CH4),,CH4,emissions,from,rice cultivation,"2,3,4,5",
+Rice cultivation (CH4) [AFOLU],,CH4,emissions,from,rice cultivation,"2,3,4,5",
+Road,,CO2,emissions,from,road transport,"2,3,4,5",
+Road [Transport],,CO2,emissions,from,road transport,"2,3,4,5",
+Synthetic fertilizer application (N2O),,N2O,emissions,from,synthetic fertiliser application,"2,3,4,5",
+Synthetic fertilizer application (N2O) [AFOLU],,N2O,emissions,from,synthetic fertiliser application,"2,3,4,5",
+Total (excl. LULUCF),Total,CO2,emissions,,(excluding LULUCF),"1,2,3,5",
+Transport,,CO2,emissions,from,transport,"2,3,4,5",
+Transport (indirect),,CO2,emissions,from,transport (indirect),"2,3,4,5",
+Waste,,CO2,emissions,from,waste,"2,3,4,5",
+Waste [Industry],,CO2,emissions,from,waste,"2,3,4,5",
