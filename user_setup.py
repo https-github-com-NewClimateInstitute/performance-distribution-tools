@@ -18,7 +18,7 @@ year_of_interest = '2019'
 
 # In case of plotting difference from a baseline year, specify the baseline year here:
 
-baseline_year = '2000'
+baseline_year = '1990'
 
 # Select the data that you want to plot.
 #   Options are:    1:  'Emissions (Primap-histcr)' (Primap-hist country-reported data)
@@ -26,26 +26,20 @@ baseline_year = '2000'
 #                   3:  'Energy (bp)' (uses bp data)
 #                   4:  'Emissions (IPCC AR6)' (uses emissions data from AR6)
 #                   5:  'Emissions (IPCC AR6)', including indirect emissions
+dataset = 1
 
-dataset = 4
-
-# If plotting Primap emissions data, please select the type of gas that you want to plot.
-# These are the options:
-#   'CH4'
-#   'CO2'
-#   'N2O'
-#   'HFCS (SARGWP100)' (as estimated in AR2)
-#   'HFCS (AR4GWP100)' (as estimated in AR4)
-#   'PFCS (SARGWP100)' (as estimated in AR2)
-#   'PFCS (AR4GWP100)' (as estimated in AR4)
-#   'SF6'
-#   'NF3'
-#   'FGASES (SARGWP100)' (as estimated in AR2)
-#   'FGASES (AR4GWP100)' (as estimated in AR4)
-#   'KYOTOGHG (SARGWP100)' (as estimated in AR2)
-#   'KYOTOGHG (AR4GWP100)' (as estimated in AR4)
-   
-primap_gas = 'KYOTOGHG (AR4GWP100)'
+# Select the gas that you want to plot:
+# Options are:
+#       'GHG'
+#       'CO2'
+#       'CH4'
+#       'N2O'
+#       'F-gases'
+#       'HFCs'
+#       'PFCs'
+#       'SF6'
+#       'NF3'
+gas = 'CH4'
 
 # If plotting Primap emissions data, please select the sector that you want to plot.
 # These are the available sectors:
@@ -71,22 +65,13 @@ primap_gas = 'KYOTOGHG (AR4GWP100)'
 # 'M.AG.ELV'    (Agriculture excluding livestock)
 # '4'           (Waste)
 # '5'           (Other)
-   
-primap_sector = '1'
+primap_sector = '1.A'
 
 # If plotting energy data, please select the variable that you want to plot
 # Options are:      1: Share of renewables in electricity
 #                   2: Share of fossil fuels in primary energy consumed
 #                   3: Energy use
 energy_variable = 1
-
-# If plotting emissions data from IPCC, please select the gas.
-# Options are:      'CO2'
-#                   'CH4'
-#                   'N2O'
-#                   'Fgas'
-#                   'GHG'
-ipcc_gas = 'GHG'
 
 # If plotting emissions data from the IPCC dataset 4, please select the sector or subsector options.
 # Subsector options are:        'Residential [Buildings]'
@@ -155,7 +140,7 @@ ipcc_gas = 'GHG'
 #                               'Energy systems (indirect)'
 #                               'Industry (indirect)'
 #                               'Transport (indirect)'
-ipcc_sector_or_subsector = 'Residential [Buildings]'
+ipcc_sector_or_subsector = 'Energy systems'
 
 # Select the data type that you want to plot:
 # Options are:      'absolute'
@@ -163,12 +148,11 @@ ipcc_sector_or_subsector = 'Residential [Buildings]'
 #                   'per USD'
 # WARNING:  Per capita and per USD measures do not apply to the following variables: share of renewables in electricity and share of fossil
 #           fuels in primary energy consumed.
-data_type = 'per capita'
+data_type = 'per USD'
 
 # Select the type of plot that you want to create:
 # Options are:      1: Distribution of variable in specified year.
 #                   2: Change of variable since specified year.
 #                   3: 5-year average trend in the specified year.
 #                   4: Year of peaking
-
-plot_type = 3
+plot_type = 1

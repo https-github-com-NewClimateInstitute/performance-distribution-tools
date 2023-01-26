@@ -261,6 +261,48 @@ def define_bp_proc_fname(proc_data):
 
     return proc_fname
 
+def define_gas_name(gas, dataset):
+    gas_out = ''
+    if gas == 'GHG':
+        if dataset == 1 or dataset == 2:
+            # Primap
+            gas_out = 'KYOTOGHG (AR4GWP100)'
+        elif dataset == 4 or dataset == 5:
+            # IPCC
+            gas_out = 'GHG'
+    elif gas == 'CO2':
+        gas_out = 'CO2'
+    elif gas == 'CH4':
+        gas_out = 'CH4'
+    elif gas == 'N2O':
+        gas_out = 'N2O'
+    elif gas == 'F-gases':
+        if dataset == 1 or dataset == 2:
+            gas_out = 'FGASES (AR4GWP100)'
+        elif dataset == 4 or dataset == 5:
+            gas_out = 'Fgas'
+    elif gas == 'HFCs':
+        if dataset == 1 or dataset == 2:
+            gas_out = 'HFCS (AR4GWP100)'
+        elif dataset == 4 or dataset == 5:
+            raise ValueError('The gas selected is not available in this dataset.')
+    elif gas == 'PFCs':
+        if dataset == 1 or dataset == 2:
+            gas_out = 'PFCS (AR4GWP100)'
+        elif dataset == 4 or dataset == 5:
+            raise ValueError('The gas selected is not available in this dataset.')
+    elif gas == 'SF6':
+        if dataset == 1 or dataset == 2:
+            gas_out = 'SF6'
+        elif dataset == 4 or dataset == 5:
+            raise ValueError('The gas selected is not available in this dataset.')
+    elif gas == 'NF3':
+        if dataset == 1 or dataset == 2:
+            gas_out = 'NF3'
+        elif dataset == 4 or dataset == 5:
+            raise ValueError('The gas selected is not available in this dataset.')
+    return gas_out
+
 def define_ipcc_proc_fname(proc_data, indirect=False):
     source = 'ipcc_ar6_wg3'    
     variable = proc_data['variable'][0]
