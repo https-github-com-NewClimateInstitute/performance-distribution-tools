@@ -238,7 +238,7 @@ def get_uba_colours():
 def make_histogram(df, year, unit, plot_type=0, xlabel='', variable_title='', 
                 sourcename='unspecified', save_plot=True, filepath='',
                 remove_outliers=True, ktuk=3,
-                plot_name='', selected_country='DEU',
+                plot_name='', selected_country='',
                 dpi=600, font='Arial', label_font_size=12, title_font_size=14, stats_font_size=10,
                 x_below_countries = 0.31,
                 x_below_arrow = 0.15,
@@ -277,7 +277,7 @@ def make_histogram(df, year, unit, plot_type=0, xlabel='', variable_title='',
     if selected_country != '':
         # get value of that country
         country_value = series[selected_country]
-        print(country_value)
+    
     # set a style
     # attempting to modify to UBA grid style but didn't work.
     #sns.set_style('darkgrid', {'xtick.color': '.95', 'grid.color': '.5'})
@@ -311,7 +311,7 @@ def make_histogram(df, year, unit, plot_type=0, xlabel='', variable_title='',
                 x_above_arrow = x_above_arrow)
 
     # If a country is selected for highlighting, then indicate it on the plot!
-    if selected_country:
+    if selected_country != '':
         add_selected_country(axs, xmin, xmax, selected_country, country_value, unit, uba_colours, stats_font_size=stats_font_size)
 
     # Annotate the plot with stats
@@ -322,7 +322,7 @@ def make_histogram(df, year, unit, plot_type=0, xlabel='', variable_title='',
     # save to file
     
     if save_plot:
-        if selected_country:
+        if selected_country != '':
             filepath = filepath.replace('/', '/' + to_name(selected_country) + '_')
 
         plt.savefig(filepath, dpi=dpi, bbox_inches='tight')

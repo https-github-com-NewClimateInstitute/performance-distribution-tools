@@ -10,7 +10,10 @@ from countrygroups import UNFCCC, EUROPEAN_UNION, ANNEX_ONE, NON_ANNEX_ONE
     # countries = UNFCCC (includes all countries in the UNFCCC)
     # countries = ['EGY', 'GRC', 'EUU', 'COL'] (includes Egypt, Greece, European Union, and Colombia)
     # International shipping is 'SEA'
-countries = UNFCCC
+countries = UNFCCC #['EGY', 'GRC', 'EUU', 'COL']
+
+# Select a country to highlight as a vertical bar in the distribution (function not to be included in the website?)
+country_to_highlight = ''
 
 # Select the year that you want to plot:
 
@@ -18,15 +21,15 @@ year_of_interest = '2019'
 
 # In case of plotting difference from a baseline year, specify the baseline year here:
 
-baseline_year = '1990'
+baseline_year = '2000'
 
 # Select the data that you want to plot.
-#   Options are:    1:  'Emissions (Primap-histcr)' (Primap-hist country-reported data)
-#                   2:  'Emissions (Primap-histtp)' (Primap-hist third-party data)
+#   Options are:    1:  'Emissions (Primap-histcr)' (Primap-hist country-reported data, AR4)
+#                   2:  'Emissions (Primap-histtp)' (Primap-hist third-party data, AR4)
 #                   3:  'Energy (bp)' (uses bp data)
 #                   4:  'Emissions (IPCC AR6)' (uses emissions data from AR6)
 #                   5:  'Emissions (IPCC AR6)', including indirect emissions
-dataset = 1
+dataset = 4
 
 # Select the gas that you want to plot:
 # Options are:
@@ -39,7 +42,7 @@ dataset = 1
 #       'PFCs'
 #       'SF6'
 #       'NF3'
-gas = 'CH4'
+gas = 'GHG'
 
 # If plotting Primap emissions data, please select the sector that you want to plot.
 # These are the available sectors:
@@ -65,7 +68,7 @@ gas = 'CH4'
 # 'M.AG.ELV'    (Agriculture excluding livestock)
 # '4'           (Waste)
 # '5'           (Other)
-primap_sector = '1.A'
+primap_sector = 'M.0.EL'
 
 # If plotting energy data, please select the variable that you want to plot
 # Options are:      1: Share of renewables in electricity
@@ -140,7 +143,7 @@ energy_variable = 1
 #                               'Energy systems (indirect)'
 #                               'Industry (indirect)'
 #                               'Transport (indirect)'
-ipcc_sector_or_subsector = 'Energy systems'
+ipcc_sector_or_subsector = 'Rice cultivation (CH4) [AFOLU]'
 
 # Select the data type that you want to plot:
 # Options are:      'absolute'
@@ -148,7 +151,7 @@ ipcc_sector_or_subsector = 'Energy systems'
 #                   'per USD'
 # WARNING:  Per capita and per USD measures do not apply to the following variables: share of renewables in electricity and share of fossil
 #           fuels in primary energy consumed.
-data_type = 'per USD'
+data_type = 'absolute'
 
 # Select the type of plot that you want to create:
 # Options are:      1: Distribution of variable in specified year.

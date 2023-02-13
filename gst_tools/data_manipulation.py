@@ -788,6 +788,7 @@ def rename_primap(raw_primap):
                          'category (IPCC2006_PRIMAP)': 'category',
                          'entity': 'gas'}, inplace=False)
     raw_data_renamed['country'].replace({'EU27BX': 'EUU'}, inplace=True)
+    # European Union only appears in the Primap database
     return raw_data_renamed
 
 def set_countries_as_index(df):
