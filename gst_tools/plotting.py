@@ -9,6 +9,7 @@ from shortcountrynames import to_name
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+
 import seaborn as sns
 from math import log10, floor
 
@@ -318,6 +319,7 @@ def make_histogram(df, year, unit, plot_type=0, xlabel='', variable_title='',
     title = variable_title + ' in ' + str(year)
 
     annotate_plot(axs, xlabel, title, unit, sourcename, maximum, minimum, mean, median, npts, remove_outliers, noutliers, label_font_size=label_font_size, title_font_size=title_font_size, stats_font_size=stats_font_size)
+
 
     # save to file
     

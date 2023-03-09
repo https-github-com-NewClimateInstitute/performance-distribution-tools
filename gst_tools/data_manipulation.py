@@ -74,6 +74,7 @@ def calculate_ren_elec_share(renamed_bp):
     #share = (renamed_bp['ren_power_twh'] + renamed_bp['hydro_twh']) / renamed_bp['elect_twh'] *100
 
     new_df = renamed_bp.copy()
+    #new_df['ren_elec_share'] = (new_df['electbyfuel_ren_power'] + new_df['electbyfuel_hydro']) / new_df['electbyfuel_total'] *100
     new_df['ren_elec_share'] = (new_df['ren_power_twh'] + new_df['hydro_twh']) / new_df['elect_twh'] *100
 
     logging.debug('Added share of renewables in electricity generated. Unit: %')
@@ -788,6 +789,13 @@ def rename_primap(raw_primap):
                          'category (IPCC2006_PRIMAP)': 'category',
                          'entity': 'gas'}, inplace=False)
     raw_data_renamed['country'].replace({'EU27BX': 'EUU'}, inplace=True)
+    raw_data_renamed['source'].replace({'PRIMAP-hist_v2.4.1_final':'PRIMAP-hist_v2.4.1'}, inplace=True)
+    raw_data_renamed['unit'].replace({'CH4 * gigagram / a':'Gg CH4 / yr'}, inplace=True)
+    raw_data_renamed['unit'].replace({'CO2 * gigagram / a':'Gg CO2 / yr'}, inplace=True)
+    raw_data_renamed['unit'].replace({'N2O * gigagram / a':'Gg N2O / yr'}, inplace=True)
+    raw_data_renamed['unit'].replace({'NF3 * gigagram / a':'Gg NF3 / yr'}, inplace=True)
+    raw_data_renamed['unit'].replace({'SF6 * gigagram / a':'Gg SF6 / yr'}, inplace=True)
+
     # European Union only appears in the Primap database
     return raw_data_renamed
 
