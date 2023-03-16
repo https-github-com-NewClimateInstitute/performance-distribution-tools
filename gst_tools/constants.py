@@ -7,9 +7,9 @@ output_folder     = 'output/'
 # These are the raw data files
 
 # 1. Primap emissions data with extrapolation
-primap_extrap_fname = 'Guetschow-et-al-2023-PRIMAP-hist_v2.4.1_final_16-Feb-2023.csv'
-primap_source_histcr = 'PRIMAP-histcr v2.4.1'
-primap_source_histtp = 'PRIMAP-histtp v2.4.1'
+primap_extrap_fname = 'Guetschow-et-al-2023a-PRIMAP-hist_v2.4.2_final_09-Mar-2023.csv'
+primap_source_histcr = 'PRIMAP-histcr v2.4.2'
+primap_source_histtp = 'PRIMAP-histtp v2.4.2'
 
 # 2. Energy data from bp (data must be in "panel" format)
 bp_world_energy_panel_fname = 'bp-stats-review-2022-consolidated-dataset-panel-format.csv'
