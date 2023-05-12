@@ -114,7 +114,7 @@ stats_font_size = 15    # Default: 9
 file_type = 'svg'       # Default: 'png'
 
 # Location of "number of countries to either side of the distribution"
-x_below_countries = 0.235            # Default: 0.31
-x_below_arrow = 0.135                # Default: 0.15
+x_below_countries = 0.225            # Default: 0.31
+x_below_arrow = 0.125                # Default: 0.15
 x_above_countries =  0.520           # Default: 0.54
 x_above_arrow =   0.850              # Default: 0.85

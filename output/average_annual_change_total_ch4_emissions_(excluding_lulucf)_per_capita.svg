@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="549.804219pt" height="341.37025pt" viewBox="0 0 549.804219 341.37025" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="522.369438pt" height="341.47275pt" viewBox="0 0 522.369438 341.47275" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2023-03-09T10:45:42.549232</dc:date>
+    <dc:date>2023-05-12T11:51:23.447752</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,32 +21,32 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 341.37025 
-L 549.804219 341.37025 
-L 549.804219 0 
+   <path d="M 0 341.47275 
+L 522.369438 341.47275 
+L 522.369438 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 51.8525 275.517 
-L 386.6525 275.517 
-L 386.6525 58.077 
-L 51.8525 58.077 
+    <path d="M 53.70375 275.6195 
+L 388.50375 275.6195 
+L 388.50375 58.1795 
+L 53.70375 58.1795 
 z
 " style="fill: #eaeaf2"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <path d="M 70.386162 275.517 
-L 70.386162 58.077 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 57.640868 275.6195 
+L 57.640868 58.1795 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_1">
-      <!-- −7.5 -->
-      <g style="fill: #262626" transform="translate(56.388115 295.49825)scale(0.15 -0.15)">
+      <!-- −6 -->
+      <g style="fill: #262626" transform="translate(49.334618 295.60075)scale(0.15 -0.15)">
        <defs>
         <path id="Cambria-2212" d="M 397 1613 
 L 397 2047 
@@ -55,124 +55,112 @@ L 3147 1613
 L 397 1613 
 z
 " transform="scale(0.015625)"/>
-        <path id="Cambria-37" d="M 3206 4116 
-L 1388 -22 
-L 934 -22 
-L 934 131 
-L 2619 3697 
-L 2619 3744 
-L 1244 3744 
-Q 1116 3744 1039 3720 
-Q 963 3697 911 3653 
-Q 859 3609 825 3537 
-Q 791 3466 731 3253 
-L 463 3253 
-L 525 4266 
-L 3206 4266 
-L 3206 4116 
+        <path id="Cambria-36" d="M 2847 4144 
+L 2847 3991 
+Q 2366 3991 1994 3784 
+Q 1622 3578 1376 3178 
+Q 1131 2778 1031 2228 
+L 1063 2216 
+Q 1325 2403 1579 2490 
+Q 1834 2578 2131 2578 
+Q 2484 2578 2732 2423 
+Q 2981 2269 3106 1989 
+Q 3231 1709 3231 1334 
+Q 3231 928 3075 617 
+Q 2919 306 2592 128 
+Q 2266 -50 1788 -50 
+Q 1103 -50 754 375 
+Q 406 800 406 1628 
+Q 406 2184 581 2668 
+Q 756 3153 1078 3514 
+Q 1400 3875 1825 4083 
+Q 2250 4291 2719 4316 
+L 2847 4144 
 z
-" transform="scale(0.015625)"/>
-        <path id="Cambria-2e" d="M 972 725 
-L 972 0 
-L 341 0 
-L 341 725 
-L 972 725 
-z
-" transform="scale(0.015625)"/>
-        <path id="Cambria-35" d="M 469 172 
-L 469 834 
-L 847 834 
-Q 941 516 1130 366 
-Q 1319 216 1619 216 
-Q 2034 216 2246 466 
-Q 2459 716 2459 1213 
-Q 2459 1544 2346 1761 
-Q 2234 1978 2043 2075 
-Q 1853 2172 1600 2172 
-Q 1388 2172 1234 2145 
-Q 1081 2119 906 2063 
-L 656 2209 
-L 656 4266 
-L 2378 4266 
-Q 2484 4266 2531 4283 
-Q 2578 4300 2606 4336 
-Q 2634 4372 2672 4472 
-L 2916 4472 
-L 2869 3747 
-L 1072 3747 
-L 1072 2375 
-Q 1234 2444 1425 2478 
-Q 1616 2513 1806 2513 
-Q 2178 2513 2465 2361 
-Q 2753 2209 2909 1929 
-Q 3066 1650 3066 1281 
-Q 3066 863 2891 563 
-Q 2716 263 2384 106 
-Q 2053 -50 1600 -50 
-Q 1059 -50 469 172 
+M 1916 2250 
+Q 1763 2250 1620 2215 
+Q 1478 2181 1353 2115 
+Q 1228 2050 1109 1950 
+Q 1072 1916 1053 1878 
+Q 1022 1819 1012 1731 
+Q 1003 1644 1003 1438 
+Q 1003 841 1203 528 
+Q 1403 216 1809 216 
+Q 2044 216 2203 297 
+Q 2363 378 2461 520 
+Q 2559 663 2601 855 
+Q 2644 1047 2644 1272 
+Q 2644 1734 2453 1992 
+Q 2263 2250 1916 2250 
 z
 " transform="scale(0.015625)"/>
        </defs>
        <use xlink:href="#Cambria-2212"/>
-       <use xlink:href="#Cambria-37" x="55.371094"/>
-       <use xlink:href="#Cambria-2e" x="110.742188"/>
-       <use xlink:href="#Cambria-35" x="131.25"/>
+       <use xlink:href="#Cambria-36" x="55.371094"/>
       </g>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
-      <path d="M 120.008275 275.517 
-L 120.008275 58.077 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 112.128496 275.6195 
+L 112.128496 58.1795 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_2">
-      <!-- −5.0 -->
-      <g style="fill: #262626" transform="translate(106.010228 295.49825)scale(0.15 -0.15)">
+      <!-- −4 -->
+      <g style="fill: #262626" transform="translate(103.822246 295.60075)scale(0.15 -0.15)">
        <defs>
-        <path id="Cambria-30" d="M 1738 -50 
-Q 1063 -50 733 481 
-Q 403 1013 403 2094 
-Q 403 2669 504 3087 
-Q 606 3506 789 3779 
-Q 972 4053 1228 4184 
-Q 1484 4316 1788 4316 
-Q 2472 4316 2806 3787 
-Q 3141 3259 3141 2191 
-Q 3141 1084 2783 517 
-Q 2425 -50 1738 -50 
+        <path id="Cambria-34" d="M 1613 153 
+Q 1806 203 1872 264 
+Q 1938 325 1958 437 
+Q 1978 550 1978 781 
+L 1978 1294 
+L 241 1294 
+L 241 1528 
+L 2069 4288 
+L 2516 4288 
+L 2516 1597 
+L 2581 1597 
+Q 2763 1597 2841 1623 
+Q 2919 1650 2970 1717 
+Q 3022 1784 3066 1938 
+L 3303 1938 
+L 3266 1294 
+L 2516 1294 
+L 2516 781 
+Q 2516 572 2530 475 
+Q 2544 378 2576 322 
+Q 2609 266 2673 228 
+Q 2738 191 2881 153 
+L 2881 0 
+L 1613 0 
+L 1613 153 
 z
-M 1013 2188 
-Q 1013 1169 1202 692 
-Q 1391 216 1788 216 
-Q 2166 216 2348 664 
-Q 2531 1113 2531 2053 
-Q 2531 2772 2437 3217 
-Q 2344 3663 2176 3856 
-Q 2009 4050 1772 4050 
-Q 1556 4050 1411 3922 
-Q 1266 3794 1177 3553 
-Q 1088 3313 1050 2967 
-Q 1013 2622 1013 2188 
+M 756 1597 
+L 1978 1597 
+L 1978 2375 
+Q 1978 2669 1987 3033 
+Q 1997 3397 2009 3581 
+L 1978 3581 
+L 756 1641 
+L 756 1597 
 z
 " transform="scale(0.015625)"/>
        </defs>
        <use xlink:href="#Cambria-2212"/>
-       <use xlink:href="#Cambria-35" x="55.371094"/>
-       <use xlink:href="#Cambria-2e" x="110.742188"/>
-       <use xlink:href="#Cambria-30" x="131.25"/>
+       <use xlink:href="#Cambria-34" x="55.371094"/>
       </g>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
-      <path d="M 169.630387 275.517 
-L 169.630387 58.077 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 166.616123 275.6195 
+L 166.616123 58.1795 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_3">
-      <!-- −2.5 -->
-      <g style="fill: #262626" transform="translate(155.632341 295.49825)scale(0.15 -0.15)">
+      <!-- −2 -->
+      <g style="fill: #262626" transform="translate(158.309873 295.60075)scale(0.15 -0.15)">
        <defs>
         <path id="Cambria-32" d="M 2194 500 
 Q 2347 500 2440 519 
@@ -211,74 +199,92 @@ z
        </defs>
        <use xlink:href="#Cambria-2212"/>
        <use xlink:href="#Cambria-32" x="55.371094"/>
-       <use xlink:href="#Cambria-2e" x="110.742188"/>
-       <use xlink:href="#Cambria-35" x="131.25"/>
       </g>
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_4">
-      <path d="M 219.2525 275.517 
-L 219.2525 58.077 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 221.10375 275.6195 
+L 221.10375 58.1795 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_4">
-      <!-- 0.0 -->
-      <g style="fill: #262626" transform="translate(209.407578 295.49825)scale(0.15 -0.15)">
+      <!-- 0 -->
+      <g style="fill: #262626" transform="translate(216.950625 295.60075)scale(0.15 -0.15)">
+       <defs>
+        <path id="Cambria-30" d="M 1738 -50 
+Q 1063 -50 733 481 
+Q 403 1013 403 2094 
+Q 403 2669 504 3087 
+Q 606 3506 789 3779 
+Q 972 4053 1228 4184 
+Q 1484 4316 1788 4316 
+Q 2472 4316 2806 3787 
+Q 3141 3259 3141 2191 
+Q 3141 1084 2783 517 
+Q 2425 -50 1738 -50 
+z
+M 1013 2188 
+Q 1013 1169 1202 692 
+Q 1391 216 1788 216 
+Q 2166 216 2348 664 
+Q 2531 1113 2531 2053 
+Q 2531 2772 2437 3217 
+Q 2344 3663 2176 3856 
+Q 2009 4050 1772 4050 
+Q 1556 4050 1411 3922 
+Q 1266 3794 1177 3553 
+Q 1088 3313 1050 2967 
+Q 1013 2622 1013 2188 
+z
+" transform="scale(0.015625)"/>
+       </defs>
        <use xlink:href="#Cambria-30"/>
-       <use xlink:href="#Cambria-2e" x="55.371094"/>
-       <use xlink:href="#Cambria-30" x="75.878906"/>
       </g>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_5">
-      <path d="M 268.874613 275.517 
-L 268.874613 58.077 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 275.591377 275.6195 
+L 275.591377 58.1795 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_5">
-      <!-- 2.5 -->
-      <g style="fill: #262626" transform="translate(259.029691 295.49825)scale(0.15 -0.15)">
+      <!-- 2 -->
+      <g style="fill: #262626" transform="translate(271.438252 295.60075)scale(0.15 -0.15)">
        <use xlink:href="#Cambria-32"/>
-       <use xlink:href="#Cambria-2e" x="55.371094"/>
-       <use xlink:href="#Cambria-35" x="75.878906"/>
       </g>
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_6">
-      <path d="M 318.496725 275.517 
-L 318.496725 58.077 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 330.079004 275.6195 
+L 330.079004 58.1795 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_6">
-      <!-- 5.0 -->
-      <g style="fill: #262626" transform="translate(308.651803 295.49825)scale(0.15 -0.15)">
-       <use xlink:href="#Cambria-35"/>
-       <use xlink:href="#Cambria-2e" x="55.371094"/>
-       <use xlink:href="#Cambria-30" x="75.878906"/>
+      <!-- 4 -->
+      <g style="fill: #262626" transform="translate(325.925879 295.60075)scale(0.15 -0.15)">
+       <use xlink:href="#Cambria-34"/>
       </g>
      </g>
     </g>
     <g id="xtick_7">
      <g id="line2d_7">
-      <path d="M 368.118838 275.517 
-L 368.118838 58.077 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 384.566632 275.6195 
+L 384.566632 58.1795 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_7">
-      <!-- 7.5 -->
-      <g style="fill: #262626" transform="translate(358.273916 295.49825)scale(0.15 -0.15)">
-       <use xlink:href="#Cambria-37"/>
-       <use xlink:href="#Cambria-2e" x="55.371094"/>
-       <use xlink:href="#Cambria-35" x="75.878906"/>
+      <!-- 6 -->
+      <g style="fill: #262626" transform="translate(380.413507 295.60075)scale(0.15 -0.15)">
+       <use xlink:href="#Cambria-36"/>
       </g>
      </g>
     </g>
     <g id="text_8">
      <!-- Average annual change  -->
-     <g style="fill: #262626" transform="translate(138.7975 313.82825)scale(0.16 -0.16)">
+     <g style="fill: #262626" transform="translate(140.64875 313.93075)scale(0.16 -0.16)">
       <defs>
        <path id="Cambria-41" d="M 2488 0 
 L 2488 153 
@@ -750,7 +756,7 @@ z
       <use xlink:href="#Cambria-20" x="983.646484"/>
      </g>
      <!-- (%) -->
-     <g style="fill: #262626" transform="translate(206.025 330.77275)scale(0.16 -0.16)">
+     <g style="fill: #262626" transform="translate(207.87625 330.87525)scale(0.16 -0.16)">
       <defs>
        <path id="Cambria-28" d="M 2309 -1359 
 Q 1778 -1359 1442 -1200 
@@ -863,26 +869,26 @@ z
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_8">
-      <path d="M 51.8525 275.517 
-L 386.6525 275.517 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 53.70375 275.6195 
+L 388.50375 275.6195 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_9">
       <!-- 0 -->
-      <g style="fill: #262626" transform="translate(34.04625 280.757625)scale(0.15 -0.15)">
+      <g style="fill: #262626" transform="translate(35.8975 280.860125)scale(0.15 -0.15)">
        <use xlink:href="#Cambria-30"/>
       </g>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_9">
-      <path d="M 51.8525 216.349653 
-L 386.6525 216.349653 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 53.70375 221.123259 
+L 388.50375 221.123259 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_10">
       <!-- 10 -->
-      <g style="fill: #262626" transform="translate(25.74 221.590278)scale(0.15 -0.15)">
+      <g style="fill: #262626" transform="translate(27.59125 226.363884)scale(0.15 -0.15)">
        <defs>
         <path id="Cambria-31" d="M 2172 816 
 Q 2172 634 2192 542 
@@ -917,13 +923,13 @@ z
     </g>
     <g id="ytick_3">
      <g id="line2d_10">
-      <path d="M 51.8525 157.182306 
-L 386.6525 157.182306 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 53.70375 166.627019 
+L 388.50375 166.627019 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_11">
       <!-- 20 -->
-      <g style="fill: #262626" transform="translate(25.74 162.422931)scale(0.15 -0.15)">
+      <g style="fill: #262626" transform="translate(27.59125 171.867644)scale(0.15 -0.15)">
        <use xlink:href="#Cambria-32"/>
        <use xlink:href="#Cambria-30" x="55.371094"/>
       </g>
@@ -931,13 +937,13 @@ L 386.6525 157.182306
     </g>
     <g id="ytick_4">
      <g id="line2d_11">
-      <path d="M 51.8525 98.014959 
-L 386.6525 98.014959 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
+      <path d="M 53.70375 112.130778 
+L 388.50375 112.130778 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #ffffff; stroke-linecap: round"/>
      </g>
      <g id="text_12">
       <!-- 30 -->
-      <g style="fill: #262626" transform="translate(25.74 103.255584)scale(0.15 -0.15)">
+      <g style="fill: #262626" transform="translate(27.59125 117.371403)scale(0.15 -0.15)">
        <defs>
         <path id="Cambria-33" d="M 497 3381 
 L 497 3975 
@@ -987,7 +993,7 @@ z
     </g>
     <g id="text_13">
      <!-- Number of countries -->
-     <g style="fill: #262626" transform="translate(18.38 237.332)rotate(-90)scale(0.16 -0.16)">
+     <g style="fill: #262626" transform="translate(20.23125 237.4345)rotate(-90)scale(0.16 -0.16)">
       <defs>
        <path id="Cambria-4e" d="M 2888 1691 
 Q 3000 1503 3076 1362 
@@ -1351,291 +1357,281 @@ z
     </g>
    </g>
    <g id="patch_3">
-    <path d="M 66.201071 275.517 
-L 85.3325 275.517 
-L 85.3325 275.517 
-L 66.201071 275.517 
+    <path d="M 68.149435 275.6195 
+L 85.144359 275.6195 
+L 85.144359 275.6195 
+L 68.149435 275.6195 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
-    <path d="M 85.3325 275.517 
-L 104.463929 275.517 
-L 104.463929 263.683531 
-L 85.3325 263.683531 
+    <path d="M 85.144359 275.6195 
+L 102.139283 275.6195 
+L 102.139283 270.169876 
+L 85.144359 270.169876 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
-    <path d="M 104.463929 275.517 
-L 123.595357 275.517 
-L 123.595357 245.933327 
-L 104.463929 245.933327 
+    <path d="M 102.139283 275.6195 
+L 119.134207 275.6195 
+L 119.134207 259.270628 
+L 102.139283 259.270628 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
-    <path d="M 123.595357 275.517 
-L 142.726786 275.517 
-L 142.726786 263.683531 
-L 123.595357 263.683531 
+    <path d="M 119.134207 275.6195 
+L 136.129131 275.6195 
+L 136.129131 253.821004 
+L 119.134207 253.821004 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
-    <path d="M 142.726786 275.517 
-L 161.858214 275.517 
-L 161.858214 228.183122 
-L 142.726786 228.183122 
+    <path d="M 136.129131 275.6195 
+L 153.124055 275.6195 
+L 153.124055 226.572883 
+L 136.129131 226.572883 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
-    <path d="M 161.858214 275.517 
-L 180.989643 275.517 
-L 180.989643 174.93251 
-L 161.858214 174.93251 
+    <path d="M 153.124055 275.6195 
+L 170.118978 275.6195 
+L 170.118978 221.123259 
+L 153.124055 221.123259 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
-    <path d="M 180.989643 275.517 
-L 200.121071 275.517 
-L 200.121071 121.681898 
-L 180.989643 121.681898 
+    <path d="M 170.118978 275.6195 
+L 187.113902 275.6195 
+L 187.113902 172.076643 
+L 170.118978 172.076643 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
-    <path d="M 200.121071 275.517 
-L 219.2525 275.517 
-L 219.2525 80.264755 
-L 200.121071 80.264755 
+    <path d="M 187.113902 275.6195 
+L 204.108826 275.6195 
+L 204.108826 128.47965 
+L 187.113902 128.47965 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
-    <path d="M 219.2525 275.517 
-L 238.383929 275.517 
-L 238.383929 68.431286 
-L 219.2525 68.431286 
+    <path d="M 204.108826 275.6195 
+L 221.10375 275.6195 
+L 221.10375 101.23153 
+L 204.108826 101.23153 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_12">
-    <path d="M 238.383929 275.517 
-L 257.515357 275.517 
-L 257.515357 127.598633 
-L 238.383929 127.598633 
+    <path d="M 221.10375 275.6195 
+L 238.098674 275.6195 
+L 238.098674 68.533786 
+L 221.10375 68.533786 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
-    <path d="M 257.515357 275.517 
-L 276.646786 275.517 
-L 276.646786 180.849245 
-L 257.515357 180.849245 
+    <path d="M 238.098674 275.6195 
+L 255.093598 275.6195 
+L 255.093598 182.975891 
+L 238.098674 182.975891 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_14">
-    <path d="M 276.646786 275.517 
-L 295.778214 275.517 
-L 295.778214 240.016592 
-L 276.646786 240.016592 
+    <path d="M 255.093598 275.6195 
+L 272.088522 275.6195 
+L 272.088522 237.472132 
+L 255.093598 237.472132 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_15">
-    <path d="M 295.778214 275.517 
-L 314.909643 275.517 
-L 314.909643 240.016592 
-L 295.778214 240.016592 
+    <path d="M 272.088522 275.6195 
+L 289.083445 275.6195 
+L 289.083445 242.921756 
+L 272.088522 242.921756 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_16">
-    <path d="M 314.909643 275.517 
-L 334.041071 275.517 
-L 334.041071 240.016592 
-L 314.909643 240.016592 
+    <path d="M 289.083445 275.6195 
+L 306.078369 275.6195 
+L 306.078369 264.720252 
+L 289.083445 264.720252 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_17">
-    <path d="M 334.041071 275.517 
-L 353.1725 275.517 
-L 353.1725 269.600265 
-L 334.041071 269.600265 
+    <path d="M 306.078369 275.6195 
+L 323.073293 275.6195 
+L 323.073293 270.169876 
+L 306.078369 270.169876 
 z
-" clip-path="url(#p4f96d0f266)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
-   </g>
-   <g id="line2d_12">
-    <path d="M 219.2525 275.517 
-L 219.2525 58.077 
-" clip-path="url(#p4f96d0f266)" style="fill: none; stroke: #1a1a1a; stroke-linecap: round"/>
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_18">
-    <path d="M 51.8525 275.517 
-L 51.8525 58.077 
-" style="fill: none; stroke: #ffffff; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+    <path d="M 323.073293 275.6195 
+L 340.068217 275.6195 
+L 340.068217 270.169876 
+L 323.073293 270.169876 
+z
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_19">
-    <path d="M 386.6525 275.517 
-L 386.6525 58.077 
-" style="fill: none; stroke: #ffffff; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+    <path d="M 340.068217 275.6195 
+L 357.063141 275.6195 
+L 357.063141 275.6195 
+L 340.068217 275.6195 
+z
+" clip-path="url(#p21c7ae51b2)" style="fill: #007626; opacity: 0.75; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 221.10375 275.6195 
+L 221.10375 58.1795 
+" clip-path="url(#p21c7ae51b2)" style="fill: none; stroke: #1a1a1a; stroke-linecap: round"/>
    </g>
    <g id="patch_20">
-    <path d="M 51.8525 275.517 
-L 386.6525 275.517 
+    <path d="M 53.70375 275.6195 
+L 53.70375 58.1795 
 " style="fill: none; stroke: #ffffff; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_21">
-    <path d="M 51.8525 58.077 
-L 386.6525 58.077 
+    <path d="M 388.50375 275.6195 
+L 388.50375 58.1795 
 " style="fill: none; stroke: #ffffff; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_22">
-    <path d="M 123.978052 55.357443 
-Q 111.515184 55.609758 100.170121 55.839442 
+    <path d="M 53.70375 275.6195 
+L 388.50375 275.6195 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 53.70375 58.1795 
+L 388.50375 58.1795 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 122.47894 55.489086 
+Q 110.017165 55.727912 98.673219 55.945316 
 " style="fill: none; stroke: #000000; stroke-linecap: round"/>
-    <path d="M 106.229616 58.717381 
-L 100.170121 55.839442 
-L 106.108168 52.71861 
-L 106.229616 58.717381 
+    <path d="M 104.729602 58.829798 
+L 98.673219 55.945316 
+L 104.614634 52.8309 
+L 104.729602 58.829798 
 z
 " style="stroke: #000000; stroke-linecap: round"/>
    </g>
    <g id="text_14">
-    <g id="patch_23">
-     <path d="M 126.4805 65.277 
-L 214.935969 65.277 
-L 214.935969 43.54575 
-L 126.4805 43.54575 
+    <g id="patch_25">
+     <path d="M 124.98375 65.3795 
+L 221.745469 65.3795 
+L 221.745469 43.64825 
+L 124.98375 43.64825 
 z
 " style="fill: #ffffff; opacity: 0.75; stroke: #808080; stroke-linejoin: miter"/>
     </g>
-    <!-- 93 countries -->
-    <g transform="translate(130.5305 58.077)scale(0.15 -0.15)">
+    <!-- 105 countries -->
+    <g transform="translate(129.03375 58.1795)scale(0.15 -0.15)">
      <defs>
-      <path id="Cambria-39" d="M 978 122 
-L 978 275 
-Q 1416 275 1736 469 
-Q 2056 663 2251 1042 
-Q 2447 1422 2513 2038 
-L 2481 2050 
-Q 2219 1863 1964 1775 
-Q 1709 1688 1413 1688 
-Q 1059 1688 811 1842 
-Q 563 1997 438 2276 
-Q 313 2556 313 2931 
-Q 313 3213 406 3464 
-Q 500 3716 684 3905 
-Q 869 4094 1145 4205 
-Q 1422 4316 1791 4316 
-Q 2447 4316 2790 3862 
-Q 3134 3409 3134 2559 
-Q 3134 1781 2881 1211 
-Q 2628 641 2172 323 
-Q 1716 6 1106 -50 
-L 978 122 
-z
-M 1628 2016 
-Q 1747 2016 1855 2036 
-Q 1963 2056 2066 2095 
-Q 2169 2134 2267 2195 
-Q 2366 2256 2444 2325 
-Q 2472 2350 2494 2390 
-Q 2516 2431 2528 2497 
-Q 2541 2563 2541 2703 
-Q 2541 3131 2455 3436 
-Q 2369 3741 2192 3895 
-Q 2016 4050 1756 4050 
-Q 1522 4050 1359 3969 
-Q 1197 3888 1095 3745 
-Q 994 3603 947 3411 
-Q 900 3219 900 2994 
-Q 900 2528 1090 2272 
-Q 1281 2016 1628 2016 
+      <path id="Cambria-35" d="M 469 172 
+L 469 834 
+L 847 834 
+Q 941 516 1130 366 
+Q 1319 216 1619 216 
+Q 2034 216 2246 466 
+Q 2459 716 2459 1213 
+Q 2459 1544 2346 1761 
+Q 2234 1978 2043 2075 
+Q 1853 2172 1600 2172 
+Q 1388 2172 1234 2145 
+Q 1081 2119 906 2063 
+L 656 2209 
+L 656 4266 
+L 2378 4266 
+Q 2484 4266 2531 4283 
+Q 2578 4300 2606 4336 
+Q 2634 4372 2672 4472 
+L 2916 4472 
+L 2869 3747 
+L 1072 3747 
+L 1072 2375 
+Q 1234 2444 1425 2478 
+Q 1616 2513 1806 2513 
+Q 2178 2513 2465 2361 
+Q 2753 2209 2909 1929 
+Q 3066 1650 3066 1281 
+Q 3066 863 2891 563 
+Q 2716 263 2384 106 
+Q 2053 -50 1600 -50 
+Q 1059 -50 469 172 
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#Cambria-39"/>
-     <use xlink:href="#Cambria-33" x="55.371094"/>
-     <use xlink:href="#Cambria-20" x="110.742188"/>
-     <use xlink:href="#Cambria-63" x="132.763672"/>
-     <use xlink:href="#Cambria-6f" x="176.855469"/>
-     <use xlink:href="#Cambria-75" x="229.931641"/>
-     <use xlink:href="#Cambria-6e" x="285.15625"/>
-     <use xlink:href="#Cambria-74" x="340.966797"/>
-     <use xlink:href="#Cambria-72" x="374.804688"/>
-     <use xlink:href="#Cambria-69" x="416.162109"/>
-     <use xlink:href="#Cambria-65" x="443.945312"/>
-     <use xlink:href="#Cambria-73" x="492.724609"/>
+     <use xlink:href="#Cambria-31"/>
+     <use xlink:href="#Cambria-30" x="55.371094"/>
+     <use xlink:href="#Cambria-35" x="110.742188"/>
+     <use xlink:href="#Cambria-20" x="166.113281"/>
+     <use xlink:href="#Cambria-63" x="188.134766"/>
+     <use xlink:href="#Cambria-6f" x="232.226562"/>
+     <use xlink:href="#Cambria-75" x="285.302734"/>
+     <use xlink:href="#Cambria-6e" x="340.527344"/>
+     <use xlink:href="#Cambria-74" x="396.337891"/>
+     <use xlink:href="#Cambria-72" x="430.175781"/>
+     <use xlink:href="#Cambria-69" x="471.533203"/>
+     <use xlink:href="#Cambria-65" x="499.316406"/>
+     <use xlink:href="#Cambria-73" x="548.095703"/>
     </g>
    </g>
-   <g id="patch_24">
-    <path d="M 312.854458 55.4025 
-Q 323.643312 55.631336 333.314383 55.836463 
+   <g id="patch_26">
+    <path d="M 314.705708 55.505 
+Q 325.494562 55.733836 335.165633 55.938963 
 " style="fill: none; stroke: #000000; stroke-linecap: round"/>
-    <path d="M 327.379349 52.709904 
-L 333.314383 55.836463 
-L 327.252115 58.708555 
-L 327.379349 52.709904 
+    <path d="M 329.230599 52.812404 
+L 335.165633 55.938963 
+L 329.103365 58.811055 
+L 329.230599 52.812404 
 z
 " style="stroke: #000000; stroke-linecap: round"/>
    </g>
    <g id="text_15">
-    <g id="patch_25">
-     <path d="M 221.8985 65.277 
-L 310.353969 65.277 
-L 310.353969 43.54575 
-L 221.8985 43.54575 
+    <g id="patch_27">
+     <path d="M 223.74975 65.3795 
+L 312.205219 65.3795 
+L 312.205219 43.64825 
+L 223.74975 43.64825 
 z
 " style="fill: #ffffff; opacity: 0.75; stroke: #808080; stroke-linejoin: miter"/>
     </g>
-    <!-- 94 countries -->
-    <g transform="translate(225.9485 58.077)scale(0.15 -0.15)">
+    <!-- 72 countries -->
+    <g transform="translate(227.79975 58.1795)scale(0.15 -0.15)">
      <defs>
-      <path id="Cambria-34" d="M 1613 153 
-Q 1806 203 1872 264 
-Q 1938 325 1958 437 
-Q 1978 550 1978 781 
-L 1978 1294 
-L 241 1294 
-L 241 1528 
-L 2069 4288 
-L 2516 4288 
-L 2516 1597 
-L 2581 1597 
-Q 2763 1597 2841 1623 
-Q 2919 1650 2970 1717 
-Q 3022 1784 3066 1938 
-L 3303 1938 
-L 3266 1294 
-L 2516 1294 
-L 2516 781 
-Q 2516 572 2530 475 
-Q 2544 378 2576 322 
-Q 2609 266 2673 228 
-Q 2738 191 2881 153 
-L 2881 0 
-L 1613 0 
-L 1613 153 
-z
-M 756 1597 
-L 1978 1597 
-L 1978 2375 
-Q 1978 2669 1987 3033 
-Q 1997 3397 2009 3581 
-L 1978 3581 
-L 756 1641 
-L 756 1597 
+      <path id="Cambria-37" d="M 3206 4116 
+L 1388 -22 
+L 934 -22 
+L 934 131 
+L 2619 3697 
+L 2619 3744 
+L 1244 3744 
+Q 1116 3744 1039 3720 
+Q 963 3697 911 3653 
+Q 859 3609 825 3537 
+Q 791 3466 731 3253 
+L 463 3253 
+L 525 4266 
+L 3206 4266 
+L 3206 4116 
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#Cambria-39"/>
-     <use xlink:href="#Cambria-34" x="55.371094"/>
+     <use xlink:href="#Cambria-37"/>
+     <use xlink:href="#Cambria-32" x="55.371094"/>
      <use xlink:href="#Cambria-20" x="110.742188"/>
      <use xlink:href="#Cambria-63" x="132.763672"/>
      <use xlink:href="#Cambria-6f" x="176.855469"/>
@@ -1649,16 +1645,16 @@ z
     </g>
    </g>
    <g id="text_16">
-    <g id="patch_26">
-     <path d="M 399.3425 239.229 
-L 546.654219 239.229 
-L 546.654219 107.40525 
-L 399.3425 107.40525 
+    <g id="patch_28">
+     <path d="M 401.19375 239.3315 
+L 511.3875 239.3315 
+L 511.3875 107.50775 
+L 401.19375 107.50775 
 z
 " style="fill: #ffffff; opacity: 0.75; stroke: #808080; stroke-linejoin: miter"/>
     </g>
     <!-- Data source: -->
-    <g transform="translate(403.3925 121.9365)scale(0.15 -0.15)">
+    <g transform="translate(405.24375 122.039)scale(0.15 -0.15)">
      <defs>
       <path id="Cambria-44" d="M 375 0 
 L 375 153 
@@ -1726,9 +1722,35 @@ z
      <use xlink:href="#Cambria-65" x="456.396484"/>
      <use xlink:href="#Cambria-3a" x="505.175781"/>
     </g>
-    <!--  PRIMAP-histcr v2.4.1 -->
-    <g transform="translate(403.3925 137.664)scale(0.15 -0.15)">
+    <!--  IPCC AR6 -->
+    <g transform="translate(405.24375 137.7665)scale(0.15 -0.15)">
      <defs>
+      <path id="Cambria-49" d="M 1331 781 
+Q 1331 572 1345 475 
+Q 1359 378 1392 322 
+Q 1425 266 1489 228 
+Q 1553 191 1697 153 
+L 1697 0 
+L 378 0 
+L 378 153 
+Q 572 203 637 264 
+Q 703 325 723 437 
+Q 744 550 744 781 
+L 744 3484 
+Q 744 3700 728 3798 
+Q 713 3897 677 3951 
+Q 641 4006 581 4039 
+Q 522 4072 378 4113 
+L 378 4266 
+L 1697 4266 
+L 1697 4113 
+Q 1559 4078 1498 4043 
+Q 1438 4009 1402 3957 
+Q 1366 3906 1348 3803 
+Q 1331 3700 1331 3484 
+L 1331 781 
+z
+" transform="scale(0.015625)"/>
       <path id="Cambria-50" d="M 1328 791 
 Q 1328 606 1348 497 
 Q 1369 388 1411 323 
@@ -1767,6 +1789,34 @@ Q 2350 3900 2175 3945
 Q 2000 3991 1794 3991 
 Q 1484 3991 1328 3978 
 L 1328 2088 
+z
+" transform="scale(0.015625)"/>
+      <path id="Cambria-43" d="M 3256 4175 
+L 3256 3309 
+L 2947 3309 
+Q 2872 3581 2756 3742 
+Q 2641 3903 2487 3972 
+Q 2334 4041 2119 4041 
+Q 1797 4041 1545 3827 
+Q 1294 3613 1150 3183 
+Q 1006 2753 1006 2144 
+Q 1006 1531 1125 1098 
+Q 1244 666 1475 445 
+Q 1706 225 2044 225 
+Q 2300 225 2462 298 
+Q 2625 372 2736 531 
+Q 2847 691 2947 1000 
+L 3256 1000 
+L 3256 106 
+Q 2963 28 2655 -11 
+Q 2347 -50 1978 -50 
+Q 1184 -50 778 487 
+Q 372 1025 372 2091 
+Q 372 2759 583 3262 
+Q 794 3766 1203 4041 
+Q 1613 4316 2181 4316 
+Q 2466 4316 2706 4286 
+Q 2947 4256 3256 4175 
 z
 " transform="scale(0.015625)"/>
       <path id="Cambria-52" d="M 1331 1853 
@@ -1823,32 +1873,22 @@ Q 2138 3991 1788 3991
 Q 1506 3991 1331 3978 
 z
 " transform="scale(0.015625)"/>
-      <path id="Cambria-49" d="M 1331 781 
-Q 1331 572 1345 475 
-Q 1359 378 1392 322 
-Q 1425 266 1489 228 
-Q 1553 191 1697 153 
-L 1697 0 
-L 378 0 
-L 378 153 
-Q 572 203 637 264 
-Q 703 325 723 437 
-Q 744 550 744 781 
-L 744 3484 
-Q 744 3700 728 3798 
-Q 713 3897 677 3951 
-Q 641 4006 581 4039 
-Q 522 4072 378 4113 
-L 378 4266 
-L 1697 4266 
-L 1697 4113 
-Q 1559 4078 1498 4043 
-Q 1438 4009 1402 3957 
-Q 1366 3906 1348 3803 
-Q 1331 3700 1331 3484 
-L 1331 781 
-z
-" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Cambria-20"/>
+     <use xlink:href="#Cambria-49" x="22.021484"/>
+     <use xlink:href="#Cambria-50" x="54.443359"/>
+     <use xlink:href="#Cambria-43" x="111.230469"/>
+     <use xlink:href="#Cambria-43" x="166.855469"/>
+     <use xlink:href="#Cambria-20" x="223.105469"/>
+     <use xlink:href="#Cambria-41" x="245.126953"/>
+     <use xlink:href="#Cambria-52" x="307.431641"/>
+     <use xlink:href="#Cambria-36" x="369.541016"/>
+    </g>
+    <!--  -->
+    <g transform="translate(405.24375 153.494)scale(0.15 -0.15)"/>
+    <!-- Maximum = 4.0 -->
+    <g transform="translate(405.24375 169.2215)scale(0.15 -0.15)">
+     <defs>
       <path id="Cambria-4d" d="M 4841 4113 
 Q 4703 4078 4642 4043 
 Q 4581 4009 4545 3957 
@@ -1899,41 +1939,6 @@ L 4841 4266
 L 4841 4113 
 z
 " transform="scale(0.015625)"/>
-      <path id="Cambria-2d" d="M 1788 1403 
-L 338 1403 
-L 338 1888 
-L 1788 1888 
-L 1788 1403 
-z
-" transform="scale(0.015625)"/>
-     </defs>
-     <use xlink:href="#Cambria-20"/>
-     <use xlink:href="#Cambria-50" x="22.021484"/>
-     <use xlink:href="#Cambria-52" x="78.808594"/>
-     <use xlink:href="#Cambria-49" x="140.917969"/>
-     <use xlink:href="#Cambria-4d" x="173.339844"/>
-     <use xlink:href="#Cambria-41" x="254.882812"/>
-     <use xlink:href="#Cambria-50" x="317.1875"/>
-     <use xlink:href="#Cambria-2d" x="370.099609"/>
-     <use xlink:href="#Cambria-68" x="403.302734"/>
-     <use xlink:href="#Cambria-69" x="458.478516"/>
-     <use xlink:href="#Cambria-73" x="486.261719"/>
-     <use xlink:href="#Cambria-74" x="529.230469"/>
-     <use xlink:href="#Cambria-63" x="563.068359"/>
-     <use xlink:href="#Cambria-72" x="607.160156"/>
-     <use xlink:href="#Cambria-20" x="648.517578"/>
-     <use xlink:href="#Cambria-76" x="670.539062"/>
-     <use xlink:href="#Cambria-32" x="720.929688"/>
-     <use xlink:href="#Cambria-2e" x="776.300781"/>
-     <use xlink:href="#Cambria-34" x="796.808594"/>
-     <use xlink:href="#Cambria-2e" x="852.179688"/>
-     <use xlink:href="#Cambria-31" x="872.6875"/>
-    </g>
-    <!--  -->
-    <g transform="translate(403.3925 153.3915)scale(0.15 -0.15)"/>
-    <!-- Maximum = 6.7 -->
-    <g transform="translate(403.3925 169.119)scale(0.15 -0.15)">
-     <defs>
       <path id="Cambria-78" d="M 1625 1803 
 L 2031 2319 
 Q 2097 2403 2137 2483 
@@ -1994,43 +1999,11 @@ L 3156 963
 L 388 963 
 z
 " transform="scale(0.015625)"/>
-      <path id="Cambria-36" d="M 2847 4144 
-L 2847 3991 
-Q 2366 3991 1994 3784 
-Q 1622 3578 1376 3178 
-Q 1131 2778 1031 2228 
-L 1063 2216 
-Q 1325 2403 1579 2490 
-Q 1834 2578 2131 2578 
-Q 2484 2578 2732 2423 
-Q 2981 2269 3106 1989 
-Q 3231 1709 3231 1334 
-Q 3231 928 3075 617 
-Q 2919 306 2592 128 
-Q 2266 -50 1788 -50 
-Q 1103 -50 754 375 
-Q 406 800 406 1628 
-Q 406 2184 581 2668 
-Q 756 3153 1078 3514 
-Q 1400 3875 1825 4083 
-Q 2250 4291 2719 4316 
-L 2847 4144 
-z
-M 1916 2250 
-Q 1763 2250 1620 2215 
-Q 1478 2181 1353 2115 
-Q 1228 2050 1109 1950 
-Q 1072 1916 1053 1878 
-Q 1022 1819 1012 1731 
-Q 1003 1644 1003 1438 
-Q 1003 841 1203 528 
-Q 1403 216 1809 216 
-Q 2044 216 2203 297 
-Q 2363 378 2461 520 
-Q 2559 663 2601 855 
-Q 2644 1047 2644 1272 
-Q 2644 1734 2453 1992 
-Q 2263 2250 1916 2250 
+      <path id="Cambria-2e" d="M 972 725 
+L 972 0 
+L 341 0 
+L 341 725 
+L 972 725 
 z
 " transform="scale(0.015625)"/>
      </defs>
@@ -2044,12 +2017,76 @@ z
      <use xlink:href="#Cambria-20" x="428.125"/>
      <use xlink:href="#Cambria-3d" x="450.146484"/>
      <use xlink:href="#Cambria-20" x="505.517578"/>
-     <use xlink:href="#Cambria-36" x="527.539062"/>
+     <use xlink:href="#Cambria-34" x="527.539062"/>
      <use xlink:href="#Cambria-2e" x="582.910156"/>
-     <use xlink:href="#Cambria-37" x="603.417969"/>
+     <use xlink:href="#Cambria-30" x="603.417969"/>
     </g>
-    <!-- Minimum = -6.7 -->
-    <g transform="translate(403.3925 184.8465)scale(0.15 -0.15)">
+    <!-- Minimum = -4.8 -->
+    <g transform="translate(405.24375 184.949)scale(0.15 -0.15)">
+     <defs>
+      <path id="Cambria-2d" d="M 1788 1403 
+L 338 1403 
+L 338 1888 
+L 1788 1888 
+L 1788 1403 
+z
+" transform="scale(0.015625)"/>
+      <path id="Cambria-38" d="M 2475 2253 
+L 2481 2213 
+Q 2834 2075 3015 1811 
+Q 3197 1547 3197 1175 
+Q 3197 809 3022 531 
+Q 2847 253 2514 101 
+Q 2181 -50 1738 -50 
+Q 1322 -50 1008 89 
+Q 694 228 520 495 
+Q 347 763 347 1125 
+Q 347 1397 440 1597 
+Q 534 1797 686 1926 
+Q 838 2056 1069 2163 
+L 1063 2203 
+Q 391 2494 391 3200 
+Q 391 3522 567 3775 
+Q 744 4028 1070 4172 
+Q 1397 4316 1794 4316 
+Q 2244 4316 2550 4189 
+Q 2856 4063 3011 3823 
+Q 3166 3584 3166 3250 
+Q 3166 2906 2997 2657 
+Q 2828 2409 2475 2253 
+z
+M 978 3228 
+Q 978 3044 1022 2881 
+Q 1066 2719 1162 2600 
+Q 1259 2481 1414 2411 
+Q 1569 2341 1794 2341 
+Q 2053 2341 2229 2442 
+Q 2406 2544 2492 2739 
+Q 2578 2934 2578 3191 
+Q 2578 3472 2476 3667 
+Q 2375 3863 2197 3956 
+Q 2019 4050 1788 4050 
+Q 1394 4050 1186 3836 
+Q 978 3622 978 3228 
+z
+M 944 1178 
+Q 944 975 991 798 
+Q 1038 622 1139 494 
+Q 1241 366 1400 291 
+Q 1559 216 1788 216 
+Q 2044 216 2226 320 
+Q 2409 425 2504 631 
+Q 2600 838 2600 1119 
+Q 2600 1419 2497 1636 
+Q 2394 1853 2206 1967 
+Q 2019 2081 1772 2081 
+Q 1541 2081 1383 2009 
+Q 1225 1938 1126 1816 
+Q 1028 1694 986 1530 
+Q 944 1366 944 1178 
+z
+" transform="scale(0.015625)"/>
+     </defs>
      <use xlink:href="#Cambria-4d"/>
      <use xlink:href="#Cambria-69" x="81.542969"/>
      <use xlink:href="#Cambria-6e" x="109.326172"/>
@@ -2061,12 +2098,12 @@ z
      <use xlink:href="#Cambria-3d" x="436.572266"/>
      <use xlink:href="#Cambria-20" x="491.943359"/>
      <use xlink:href="#Cambria-2d" x="513.964844"/>
-     <use xlink:href="#Cambria-36" x="547.167969"/>
+     <use xlink:href="#Cambria-34" x="547.167969"/>
      <use xlink:href="#Cambria-2e" x="602.539062"/>
-     <use xlink:href="#Cambria-37" x="623.046875"/>
+     <use xlink:href="#Cambria-38" x="623.046875"/>
     </g>
-    <!-- Mean = 0.043 -->
-    <g transform="translate(403.3925 200.574)scale(0.15 -0.15)">
+    <!-- Mean = -0.44 -->
+    <g transform="translate(405.24375 200.6765)scale(0.15 -0.15)">
      <use xlink:href="#Cambria-4d"/>
      <use xlink:href="#Cambria-65" x="81.542969"/>
      <use xlink:href="#Cambria-61" x="130.322266"/>
@@ -2074,14 +2111,14 @@ z
      <use xlink:href="#Cambria-20" x="234.960938"/>
      <use xlink:href="#Cambria-3d" x="256.982422"/>
      <use xlink:href="#Cambria-20" x="312.353516"/>
-     <use xlink:href="#Cambria-30" x="334.375"/>
-     <use xlink:href="#Cambria-2e" x="389.746094"/>
-     <use xlink:href="#Cambria-30" x="410.253906"/>
-     <use xlink:href="#Cambria-34" x="465.625"/>
-     <use xlink:href="#Cambria-33" x="520.996094"/>
+     <use xlink:href="#Cambria-2d" x="334.375"/>
+     <use xlink:href="#Cambria-30" x="367.578125"/>
+     <use xlink:href="#Cambria-2e" x="422.949219"/>
+     <use xlink:href="#Cambria-34" x="443.457031"/>
+     <use xlink:href="#Cambria-34" x="498.828125"/>
     </g>
-    <!-- Median = 0.0016 -->
-    <g transform="translate(403.3925 216.3015)scale(0.15 -0.15)">
+    <!-- Median = -0.33 -->
+    <g transform="translate(405.24375 216.404)scale(0.15 -0.15)">
      <defs>
       <path id="Cambria-64" d="M 2413 3397 
 Q 2413 3697 2408 3815 
@@ -2143,100 +2180,14 @@ z
      <use xlink:href="#Cambria-20" x="318.212891"/>
      <use xlink:href="#Cambria-3d" x="340.234375"/>
      <use xlink:href="#Cambria-20" x="395.605469"/>
-     <use xlink:href="#Cambria-30" x="417.626953"/>
-     <use xlink:href="#Cambria-2e" x="472.998047"/>
-     <use xlink:href="#Cambria-30" x="493.505859"/>
-     <use xlink:href="#Cambria-30" x="548.876953"/>
-     <use xlink:href="#Cambria-31" x="604.248047"/>
-     <use xlink:href="#Cambria-36" x="659.619141"/>
+     <use xlink:href="#Cambria-2d" x="417.626953"/>
+     <use xlink:href="#Cambria-30" x="450.830078"/>
+     <use xlink:href="#Cambria-2e" x="506.201172"/>
+     <use xlink:href="#Cambria-33" x="526.708984"/>
+     <use xlink:href="#Cambria-33" x="582.080078"/>
     </g>
-    <!-- Countries = 188 -->
-    <g transform="translate(403.3925 232.029)scale(0.15 -0.15)">
-     <defs>
-      <path id="Cambria-43" d="M 3256 4175 
-L 3256 3309 
-L 2947 3309 
-Q 2872 3581 2756 3742 
-Q 2641 3903 2487 3972 
-Q 2334 4041 2119 4041 
-Q 1797 4041 1545 3827 
-Q 1294 3613 1150 3183 
-Q 1006 2753 1006 2144 
-Q 1006 1531 1125 1098 
-Q 1244 666 1475 445 
-Q 1706 225 2044 225 
-Q 2300 225 2462 298 
-Q 2625 372 2736 531 
-Q 2847 691 2947 1000 
-L 3256 1000 
-L 3256 106 
-Q 2963 28 2655 -11 
-Q 2347 -50 1978 -50 
-Q 1184 -50 778 487 
-Q 372 1025 372 2091 
-Q 372 2759 583 3262 
-Q 794 3766 1203 4041 
-Q 1613 4316 2181 4316 
-Q 2466 4316 2706 4286 
-Q 2947 4256 3256 4175 
-z
-" transform="scale(0.015625)"/>
-      <path id="Cambria-38" d="M 2475 2253 
-L 2481 2213 
-Q 2834 2075 3015 1811 
-Q 3197 1547 3197 1175 
-Q 3197 809 3022 531 
-Q 2847 253 2514 101 
-Q 2181 -50 1738 -50 
-Q 1322 -50 1008 89 
-Q 694 228 520 495 
-Q 347 763 347 1125 
-Q 347 1397 440 1597 
-Q 534 1797 686 1926 
-Q 838 2056 1069 2163 
-L 1063 2203 
-Q 391 2494 391 3200 
-Q 391 3522 567 3775 
-Q 744 4028 1070 4172 
-Q 1397 4316 1794 4316 
-Q 2244 4316 2550 4189 
-Q 2856 4063 3011 3823 
-Q 3166 3584 3166 3250 
-Q 3166 2906 2997 2657 
-Q 2828 2409 2475 2253 
-z
-M 978 3228 
-Q 978 3044 1022 2881 
-Q 1066 2719 1162 2600 
-Q 1259 2481 1414 2411 
-Q 1569 2341 1794 2341 
-Q 2053 2341 2229 2442 
-Q 2406 2544 2492 2739 
-Q 2578 2934 2578 3191 
-Q 2578 3472 2476 3667 
-Q 2375 3863 2197 3956 
-Q 2019 4050 1788 4050 
-Q 1394 4050 1186 3836 
-Q 978 3622 978 3228 
-z
-M 944 1178 
-Q 944 975 991 798 
-Q 1038 622 1139 494 
-Q 1241 366 1400 291 
-Q 1559 216 1788 216 
-Q 2044 216 2226 320 
-Q 2409 425 2504 631 
-Q 2600 838 2600 1119 
-Q 2600 1419 2497 1636 
-Q 2394 1853 2206 1967 
-Q 2019 2081 1772 2081 
-Q 1541 2081 1383 2009 
-Q 1225 1938 1126 1816 
-Q 1028 1694 986 1530 
-Q 944 1366 944 1178 
-z
-" transform="scale(0.015625)"/>
-     </defs>
+    <!-- Countries = 177 -->
+    <g transform="translate(405.24375 232.1315)scale(0.15 -0.15)">
      <use xlink:href="#Cambria-43"/>
      <use xlink:href="#Cambria-6f" x="56.25"/>
      <use xlink:href="#Cambria-75" x="109.326172"/>
@@ -2250,13 +2201,13 @@ z
      <use xlink:href="#Cambria-3d" x="437.109375"/>
      <use xlink:href="#Cambria-20" x="492.480469"/>
      <use xlink:href="#Cambria-31" x="514.501953"/>
-     <use xlink:href="#Cambria-38" x="569.873047"/>
-     <use xlink:href="#Cambria-38" x="625.244141"/>
+     <use xlink:href="#Cambria-37" x="569.873047"/>
+     <use xlink:href="#Cambria-37" x="625.244141"/>
     </g>
    </g>
    <g id="text_17">
-    <!--   6 outliers not shown -->
-    <g transform="translate(393.3485 253.773)scale(0.13 -0.13)">
+    <!--   8 outliers not shown -->
+    <g transform="translate(395.19975 253.8755)scale(0.13 -0.13)">
      <defs>
       <path id="Cambria-77" d="M 2494 2334 
 L 1675 -16 
@@ -2296,7 +2247,7 @@ z
      </defs>
      <use xlink:href="#Cambria-20"/>
      <use xlink:href="#Cambria-20" x="22.021484"/>
-     <use xlink:href="#Cambria-36" x="44.042969"/>
+     <use xlink:href="#Cambria-38" x="44.042969"/>
      <use xlink:href="#Cambria-20" x="99.414062"/>
      <use xlink:href="#Cambria-6f" x="121.435547"/>
      <use xlink:href="#Cambria-75" x="174.511719"/>
@@ -2320,7 +2271,7 @@ z
    </g>
    <g id="text_18">
     <!-- 5-year trend in -->
-    <g style="fill: #262626" transform="translate(164.02 18.3875)scale(0.16 -0.16)">
+    <g style="fill: #262626" transform="translate(165.87125 18.3875)scale(0.16 -0.16)">
      <defs>
       <path id="Cambria-Bold-35" d="M 491 194 
 L 491 975 
@@ -2680,8 +2631,8 @@ z
      <use xlink:href="#Cambria-Bold-69" x="598.583984"/>
      <use xlink:href="#Cambria-Bold-6e" x="630.029297"/>
     </g>
-    <!-- total GHG emissions (excl. LULUCF) per capita in 2019 -->
-    <g style="fill: #262626" transform="translate(22.29125 35.2545)scale(0.16 -0.16)">
+    <!-- total CH₄ emissions (excluding LULUCF) per capita in 2019 -->
+    <g style="fill: #262626" transform="translate(7.2 35.2545)scale(0.16 -0.16)">
      <defs>
       <path id="Cambria-Bold-6f" d="M 1784 -50 
 Q 1325 -50 992 111 
@@ -2735,42 +2686,30 @@ L 1438 4475
 L 1438 903 
 z
 " transform="scale(0.015625)"/>
-      <path id="Cambria-Bold-47" d="M 3578 4150 
-L 3578 3263 
-L 3150 3263 
-Q 3078 3525 2986 3667 
-Q 2894 3809 2748 3879 
-Q 2603 3950 2375 3950 
-Q 2066 3950 1828 3761 
-Q 1591 3572 1453 3158 
-Q 1316 2744 1316 2109 
-Q 1316 1563 1408 1161 
-Q 1500 759 1689 537 
-Q 1878 316 2156 316 
-Q 2431 316 2562 480 
-Q 2694 644 2694 1003 
-L 2694 1122 
-Q 2694 1359 2678 1461 
-Q 2663 1563 2630 1613 
-Q 2597 1663 2544 1694 
-Q 2491 1725 2356 1766 
-L 2356 1972 
-L 3956 1972 
-L 3956 1766 
-Q 3800 1719 3744 1659 
-Q 3688 1600 3667 1501 
-Q 3647 1403 3647 1225 
-L 3647 47 
-L 3197 -47 
-L 2984 178 
-Q 2613 -50 2131 -50 
-Q 1219 -50 770 483 
-Q 322 1016 322 2097 
-Q 322 2666 481 3097 
-Q 641 3528 923 3798 
-Q 1206 4069 1561 4192 
-Q 1916 4316 2322 4316 
-Q 3006 4316 3578 4150 
+      <path id="Cambria-Bold-43" d="M 3403 4169 
+L 3403 3263 
+L 2978 3263 
+Q 2903 3616 2740 3783 
+Q 2578 3950 2316 3950 
+Q 1822 3950 1569 3476 
+Q 1316 3003 1316 2072 
+Q 1316 1206 1547 761 
+Q 1778 316 2225 316 
+Q 2453 316 2597 392 
+Q 2741 469 2827 622 
+Q 2913 775 2975 1053 
+L 3403 1053 
+L 3403 106 
+Q 3059 25 2775 -12 
+Q 2491 -50 2184 -50 
+Q 1534 -50 1123 184 
+Q 713 419 517 892 
+Q 322 1366 322 2091 
+Q 322 2769 551 3270 
+Q 781 3772 1228 4044 
+Q 1675 4316 2297 4316 
+Q 2613 4316 2869 4281 
+Q 3125 4247 3403 4169 
 z
 " transform="scale(0.015625)"/>
       <path id="Cambria-Bold-48" d="M 3984 784 
@@ -2823,6 +2762,40 @@ Q 4053 3938 4026 3872
 Q 4000 3806 3992 3725 
 Q 3984 3644 3984 3475 
 L 3984 784 
+z
+" transform="scale(0.015625)"/>
+      <path id="Cambria-Bold-2084" d="M 1109 -739 
+Q 1228 -714 1270 -682 
+Q 1313 -651 1328 -602 
+Q 1344 -554 1344 -429 
+L 1344 -195 
+L 219 -195 
+L 219 52 
+L 1491 1702 
+L 2019 1702 
+L 2019 102 
+L 2047 102 
+Q 2150 102 2192 114 
+Q 2234 127 2264 163 
+Q 2294 199 2322 283 
+L 2584 283 
+L 2550 -195 
+L 2019 -195 
+L 2019 -429 
+Q 2019 -554 2037 -605 
+Q 2056 -657 2097 -685 
+Q 2138 -714 2253 -739 
+L 2253 -929 
+L 1109 -929 
+L 1109 -739 
+z
+M 1344 486 
+Q 1344 746 1363 1011 
+L 1331 1011 
+L 694 133 
+L 694 102 
+L 1344 102 
+L 1344 486 
 z
 " transform="scale(0.015625)"/>
       <path id="Cambria-Bold-6d" d="M 1431 2675 
@@ -3041,11 +3014,110 @@ Q 2109 441 2270 519
 Q 2431 597 2650 800 
 z
 " transform="scale(0.015625)"/>
-      <path id="Cambria-Bold-2e" d="M 1163 944 
-L 1163 0 
-L 322 0 
-L 322 944 
-L 1163 944 
+      <path id="Cambria-Bold-75" d="M 200 3100 
+L 1416 3100 
+L 1416 1366 
+Q 1416 1066 1434 897 
+Q 1453 728 1506 629 
+Q 1559 531 1636 486 
+Q 1713 441 1831 441 
+Q 1947 441 2075 512 
+Q 2203 584 2292 714 
+Q 2381 844 2381 991 
+L 2381 2197 
+Q 2381 2425 2372 2536 
+Q 2363 2647 2336 2709 
+Q 2309 2772 2253 2814 
+Q 2197 2856 2069 2894 
+L 2069 3100 
+L 3288 3100 
+L 3288 913 
+Q 3288 675 3295 565 
+Q 3303 456 3331 390 
+Q 3359 325 3421 283 
+Q 3484 241 3631 209 
+L 3631 0 
+L 2781 -28 
+L 2403 -28 
+L 2431 422 
+L 2394 431 
+Q 2103 163 1875 56 
+Q 1647 -50 1416 -50 
+Q 1084 -50 886 73 
+Q 688 197 600 436 
+Q 513 675 513 1053 
+L 513 2197 
+Q 513 2372 508 2465 
+Q 503 2559 493 2611 
+Q 484 2663 467 2705 
+Q 450 2747 420 2781 
+Q 391 2816 339 2844 
+Q 288 2872 200 2894 
+L 200 3100 
+z
+" transform="scale(0.015625)"/>
+      <path id="Cambria-Bold-67" d="M 3291 2681 
+L 2756 2741 
+L 2744 2706 
+Q 2831 2619 2889 2467 
+Q 2947 2316 2947 2103 
+Q 2947 1559 2617 1278 
+Q 2288 997 1647 997 
+Q 1338 997 1141 1053 
+Q 984 913 984 750 
+Q 984 656 1023 606 
+Q 1063 556 1156 529 
+Q 1250 503 1422 503 
+L 2197 503 
+Q 2719 503 2978 300 
+Q 3238 97 3238 -331 
+Q 3238 -666 3048 -906 
+Q 2859 -1147 2506 -1273 
+Q 2153 -1400 1669 -1400 
+Q 1316 -1400 1028 -1369 
+Q 741 -1338 537 -1255 
+Q 334 -1172 223 -1028 
+Q 113 -884 113 -663 
+Q 113 -484 225 -334 
+Q 338 -184 541 -78 
+Q 409 16 350 137 
+Q 291 259 291 438 
+Q 291 584 352 712 
+Q 413 841 514 945 
+Q 616 1050 778 1175 
+Q 534 1313 409 1536 
+Q 284 1759 284 2059 
+Q 284 2350 389 2558 
+Q 494 2766 676 2897 
+Q 859 3028 1107 3089 
+Q 1356 3150 1644 3150 
+Q 1803 3150 1925 3134 
+Q 2047 3119 2163 3100 
+L 3291 3100 
+L 3291 2681 
+z
+M 1181 2097 
+Q 1181 1703 1292 1511 
+Q 1403 1319 1641 1319 
+Q 1856 1319 1970 1497 
+Q 2084 1675 2084 2041 
+Q 2084 2425 1973 2626 
+Q 1863 2828 1634 2828 
+Q 1403 2828 1292 2648 
+Q 1181 2469 1181 2097 
+z
+M 1069 -200 
+Q 956 -288 898 -391 
+Q 841 -494 841 -628 
+Q 841 -853 1036 -961 
+Q 1231 -1069 1653 -1069 
+Q 2047 -1069 2251 -937 
+Q 2456 -806 2456 -569 
+Q 2456 -463 2418 -388 
+Q 2381 -313 2272 -263 
+Q 2163 -213 1963 -213 
+L 1425 -213 
+Q 1197 -213 1069 -200 
 z
 " transform="scale(0.015625)"/>
       <path id="Cambria-Bold-4c" d="M 1941 4266 
@@ -3119,32 +3191,6 @@ Q 2613 316 2769 444
 Q 2925 572 2989 801 
 Q 3053 1031 3053 1488 
 L 3053 3481 
-z
-" transform="scale(0.015625)"/>
-      <path id="Cambria-Bold-43" d="M 3403 4169 
-L 3403 3263 
-L 2978 3263 
-Q 2903 3616 2740 3783 
-Q 2578 3950 2316 3950 
-Q 1822 3950 1569 3476 
-Q 1316 3003 1316 2072 
-Q 1316 1206 1547 761 
-Q 1778 316 2225 316 
-Q 2453 316 2597 392 
-Q 2741 469 2827 622 
-Q 2913 775 2975 1053 
-L 3403 1053 
-L 3403 106 
-Q 3059 25 2775 -12 
-Q 2491 -50 2184 -50 
-Q 1534 -50 1123 184 
-Q 713 419 517 892 
-Q 322 1366 322 2091 
-Q 322 2769 551 3270 
-Q 781 3772 1228 4044 
-Q 1675 4316 2297 4316 
-Q 2613 4316 2869 4281 
-Q 3125 4247 3403 4169 
 z
 " transform="scale(0.015625)"/>
       <path id="Cambria-Bold-46" d="M 1603 784 
@@ -3393,62 +3439,66 @@ z
      <use xlink:href="#Cambria-Bold-61" x="129.980469"/>
      <use xlink:href="#Cambria-Bold-6c" x="183.496094"/>
      <use xlink:href="#Cambria-Bold-20" x="214.306641"/>
-     <use xlink:href="#Cambria-Bold-47" x="236.328125"/>
-     <use xlink:href="#Cambria-Bold-48" x="300.976562"/>
-     <use xlink:href="#Cambria-Bold-47" x="373.144531"/>
-     <use xlink:href="#Cambria-Bold-20" x="437.792969"/>
-     <use xlink:href="#Cambria-Bold-65" x="459.814453"/>
-     <use xlink:href="#Cambria-Bold-6d" x="512.890625"/>
-     <use xlink:href="#Cambria-Bold-69" x="601.904297"/>
-     <use xlink:href="#Cambria-Bold-73" x="633.349609"/>
-     <use xlink:href="#Cambria-Bold-73" x="679.248047"/>
-     <use xlink:href="#Cambria-Bold-69" x="725.146484"/>
-     <use xlink:href="#Cambria-Bold-6f" x="756.591797"/>
-     <use xlink:href="#Cambria-Bold-6e" x="813.525391"/>
-     <use xlink:href="#Cambria-Bold-73" x="873.876953"/>
-     <use xlink:href="#Cambria-Bold-20" x="919.775391"/>
-     <use xlink:href="#Cambria-Bold-28" x="941.796875"/>
-     <use xlink:href="#Cambria-Bold-65" x="982.617188"/>
-     <use xlink:href="#Cambria-Bold-78" x="1035.693359"/>
-     <use xlink:href="#Cambria-Bold-63" x="1088.232422"/>
-     <use xlink:href="#Cambria-Bold-6c" x="1135.107422"/>
-     <use xlink:href="#Cambria-Bold-2e" x="1165.917969"/>
-     <use xlink:href="#Cambria-Bold-20" x="1189.111328"/>
-     <use xlink:href="#Cambria-Bold-4c" x="1211.132812"/>
-     <use xlink:href="#Cambria-Bold-55" x="1263.585938"/>
-     <use xlink:href="#Cambria-Bold-4c" x="1331.212891"/>
-     <use xlink:href="#Cambria-Bold-55" x="1383.666016"/>
-     <use xlink:href="#Cambria-Bold-43" x="1451.292969"/>
-     <use xlink:href="#Cambria-Bold-46" x="1508.617188"/>
-     <use xlink:href="#Cambria-Bold-29" x="1563.744141"/>
-     <use xlink:href="#Cambria-Bold-20" x="1604.564453"/>
-     <use xlink:href="#Cambria-Bold-70" x="1626.585938"/>
-     <use xlink:href="#Cambria-Bold-65" x="1686.302734"/>
-     <use xlink:href="#Cambria-Bold-72" x="1739.378906"/>
-     <use xlink:href="#Cambria-Bold-20" x="1785.521484"/>
-     <use xlink:href="#Cambria-Bold-63" x="1807.542969"/>
-     <use xlink:href="#Cambria-Bold-61" x="1854.417969"/>
-     <use xlink:href="#Cambria-Bold-70" x="1907.933594"/>
-     <use xlink:href="#Cambria-Bold-69" x="1967.650391"/>
-     <use xlink:href="#Cambria-Bold-74" x="1999.095703"/>
-     <use xlink:href="#Cambria-Bold-61" x="2035.619141"/>
-     <use xlink:href="#Cambria-Bold-20" x="2089.134766"/>
-     <use xlink:href="#Cambria-Bold-69" x="2111.15625"/>
-     <use xlink:href="#Cambria-Bold-6e" x="2142.601562"/>
-     <use xlink:href="#Cambria-Bold-20" x="2202.953125"/>
-     <use xlink:href="#Cambria-Bold-32" x="2224.974609"/>
-     <use xlink:href="#Cambria-Bold-30" x="2284.203125"/>
-     <use xlink:href="#Cambria-Bold-31" x="2343.431641"/>
-     <use xlink:href="#Cambria-Bold-39" x="2402.660156"/>
+     <use xlink:href="#Cambria-Bold-43" x="236.328125"/>
+     <use xlink:href="#Cambria-Bold-48" x="293.652344"/>
+     <use xlink:href="#Cambria-Bold-2084" x="365.820312"/>
+     <use xlink:href="#Cambria-Bold-20" x="409.521484"/>
+     <use xlink:href="#Cambria-Bold-65" x="431.542969"/>
+     <use xlink:href="#Cambria-Bold-6d" x="484.619141"/>
+     <use xlink:href="#Cambria-Bold-69" x="573.632812"/>
+     <use xlink:href="#Cambria-Bold-73" x="605.078125"/>
+     <use xlink:href="#Cambria-Bold-73" x="650.976562"/>
+     <use xlink:href="#Cambria-Bold-69" x="696.875"/>
+     <use xlink:href="#Cambria-Bold-6f" x="728.320312"/>
+     <use xlink:href="#Cambria-Bold-6e" x="785.253906"/>
+     <use xlink:href="#Cambria-Bold-73" x="845.605469"/>
+     <use xlink:href="#Cambria-Bold-20" x="891.503906"/>
+     <use xlink:href="#Cambria-Bold-28" x="913.525391"/>
+     <use xlink:href="#Cambria-Bold-65" x="954.345703"/>
+     <use xlink:href="#Cambria-Bold-78" x="1007.421875"/>
+     <use xlink:href="#Cambria-Bold-63" x="1059.960938"/>
+     <use xlink:href="#Cambria-Bold-6c" x="1106.835938"/>
+     <use xlink:href="#Cambria-Bold-75" x="1137.646484"/>
+     <use xlink:href="#Cambria-Bold-64" x="1197.363281"/>
+     <use xlink:href="#Cambria-Bold-69" x="1257.080078"/>
+     <use xlink:href="#Cambria-Bold-6e" x="1288.525391"/>
+     <use xlink:href="#Cambria-Bold-67" x="1348.876953"/>
+     <use xlink:href="#Cambria-Bold-20" x="1400.878906"/>
+     <use xlink:href="#Cambria-Bold-4c" x="1422.900391"/>
+     <use xlink:href="#Cambria-Bold-55" x="1475.353516"/>
+     <use xlink:href="#Cambria-Bold-4c" x="1542.980469"/>
+     <use xlink:href="#Cambria-Bold-55" x="1595.433594"/>
+     <use xlink:href="#Cambria-Bold-43" x="1663.060547"/>
+     <use xlink:href="#Cambria-Bold-46" x="1720.384766"/>
+     <use xlink:href="#Cambria-Bold-29" x="1775.511719"/>
+     <use xlink:href="#Cambria-Bold-20" x="1816.332031"/>
+     <use xlink:href="#Cambria-Bold-70" x="1838.353516"/>
+     <use xlink:href="#Cambria-Bold-65" x="1898.070312"/>
+     <use xlink:href="#Cambria-Bold-72" x="1951.146484"/>
+     <use xlink:href="#Cambria-Bold-20" x="1997.289062"/>
+     <use xlink:href="#Cambria-Bold-63" x="2019.310547"/>
+     <use xlink:href="#Cambria-Bold-61" x="2066.185547"/>
+     <use xlink:href="#Cambria-Bold-70" x="2119.701172"/>
+     <use xlink:href="#Cambria-Bold-69" x="2179.417969"/>
+     <use xlink:href="#Cambria-Bold-74" x="2210.863281"/>
+     <use xlink:href="#Cambria-Bold-61" x="2247.386719"/>
+     <use xlink:href="#Cambria-Bold-20" x="2300.902344"/>
+     <use xlink:href="#Cambria-Bold-69" x="2322.923828"/>
+     <use xlink:href="#Cambria-Bold-6e" x="2354.369141"/>
+     <use xlink:href="#Cambria-Bold-20" x="2414.720703"/>
+     <use xlink:href="#Cambria-Bold-32" x="2436.742188"/>
+     <use xlink:href="#Cambria-Bold-30" x="2495.970703"/>
+     <use xlink:href="#Cambria-Bold-31" x="2555.199219"/>
+     <use xlink:href="#Cambria-Bold-39" x="2614.427734"/>
     </g>
     <!--  -->
-    <g style="fill: #262626" transform="translate(219.2525 52.077)scale(0.16 -0.16)"/>
+    <g style="fill: #262626" transform="translate(221.10375 52.1795)scale(0.16 -0.16)"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p4f96d0f266">
-   <rect x="51.8525" y="58.077" width="334.8" height="217.44"/>
+  <clipPath id="p21c7ae51b2">
+   <rect x="53.70375" y="58.1795" width="334.8" height="217.44"/>
   </clipPath>
  </defs>
 </svg>

@@ -24,12 +24,12 @@ year_of_interest = '2019'
 baseline_year = '2000'
 
 # Select the data that you want to plot.
-#   Options are:    1:  'Emissions (Primap-histcr)' (Primap-hist country-reported data, AR4)
-#                   2:  'Emissions (Primap-histtp)' (Primap-hist third-party data, AR4)
-#                   3:  'Energy (bp)' (uses bp data)
+#   Options are:    1:  'Emissions (PRIMAP-histcr)' (Primap-hist country-reported data, AR4)
+#                   2:  'Emissions (PRIMAP-histtp)' (Primap-hist third-party data, AR4)
+#                   3:  'Energy (BP)' (uses bp data)
 #                   4:  'Emissions (IPCC AR6)' (uses emissions data from AR6)
 #                   5:  'Emissions (IPCC AR6)', including indirect emissions
-dataset = 1
+dataset = 4
 
 # Select the gas that you want to plot:
 # Options are:
@@ -42,7 +42,7 @@ dataset = 1
 #       'PFCs'
 #       'SF6'
 #       'NF3'
-gas = 'GHG'
+gas = 'CH4'
 
 # If plotting Primap emissions data, please select the sector that you want to plot.
 # These are the available sectors:
@@ -68,7 +68,7 @@ gas = 'GHG'
 # 'M.AG.ELV'    (Agriculture excluding livestock)
 # '4'           (Waste)
 # '5'           (Other)
-primap_sector = 'M.0.EL'
+primap_sector = '2'
 
 # If plotting energy data, please select the variable that you want to plot
 # Options are:      1: Share of renewables in electricity
@@ -159,4 +159,4 @@ data_type = 'per capita'
 #                   2: Change of variable since specified year.
 #                   3: 5-year average trend in the specified year.
 #                   4: Year of peaking
-plot_type = 2
+plot_type = 3
