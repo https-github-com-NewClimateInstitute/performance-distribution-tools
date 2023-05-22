@@ -552,17 +552,27 @@ def filter_ipcc_indirect(renamed_ipcc_indirect, gas, sector_or_subsector, countr
 
         sector_aggr_tot = pd.concat([ind_sector_agg, sector_aggr, total]).reset_index(drop=True)
         sector_aggr_tot.rename(columns={'sector': 'category'}, inplace=True)
-        
-         # Adding sector name tag to subsectors
+                        
+        # (4) Calculating subsectoral aggregates (the subsectors include both direct and indirect)
+        # First, adding sector name tag to subsectors
         filtered['subsector'] = filtered['subsector'].astype(str) + ' [' + filtered['sector'].astype(str) + ']'
-        
+        # Now, adding up the direct and indirect subsectoral estimates
+        subsector_aggr = filtered.drop(columns=['sector', 'source']).groupby(by=['country', 'subsector']).sum(min_count=1).reset_index()
+  
         # Leaving only one "category" column
-        filtered = filtered.drop(columns=['sector', 'source']).rename(columns={'subsector': 'category'})
-
-        # I think this is unnecessary:
-        filtered = filtered.groupby(by=['country', 'category']).sum().reset_index()
+        subsector_aggr.rename(columns={'subsector': 'category'}, inplace=True)
         
-        filtered = pd.concat([filtered, sector_aggr_tot]).reset_index(drop=True)
+        # DELETE Adding sector name tag to subsectors
+        # DELETE filtered['subsector'] = filtered['subsector'].astype(str) + ' [' + filtered['sector'].astype(str) + ']'
+        
+
+
+        # DELETE I think this is unnecessary:
+        #filtered = filtered.groupby(by=['country', 'category']).sum().reset_index()
+        
+        # Joining together sectoral indirect emissions (1), sectoral aggregates - both direct and indirect (2), 
+        # total country estimates - only direct (3), and subsectoral aggregates - both direct and indirect (4)
+        filtered = pd.concat([subsector_aggr, sector_aggr_tot]).reset_index(drop=True)
 
         
         # Filtering by category

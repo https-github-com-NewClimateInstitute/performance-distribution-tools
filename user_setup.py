@@ -13,7 +13,7 @@ from countrygroups import UNFCCC, EUROPEAN_UNION, ANNEX_ONE, NON_ANNEX_ONE
 countries = UNFCCC #['EGY', 'GRC', 'EUU', 'COL']
 
 # Select a country to highlight as a vertical bar in the distribution (function not to be included in the website?)
-country_to_highlight = ''
+country_to_highlight = 'EGY'
 
 # Select the year that you want to plot:
 
@@ -21,7 +21,7 @@ year_of_interest = '2019'
 
 # In case of plotting difference from a baseline year, specify the baseline year here:
 
-baseline_year = '2000'
+baseline_year = '1990'
 
 # Select the data that you want to plot.
 #   Options are:    1:  'Emissions (PRIMAP-histcr)' (Primap-hist country-reported data, AR4)
@@ -29,7 +29,7 @@ baseline_year = '2000'
 #                   3:  'Energy (BP)' (uses bp data)
 #                   4:  'Emissions (IPCC AR6)' (uses emissions data from AR6)
 #                   5:  'Emissions (IPCC AR6)', including indirect emissions
-dataset = 4
+dataset = 5
 
 # Select the gas that you want to plot:
 # Options are:
@@ -42,7 +42,7 @@ dataset = 4
 #       'PFCs'
 #       'SF6'
 #       'NF3'
-gas = 'CH4'
+gas = 'GHG'
 
 # If plotting Primap emissions data, please select the sector that you want to plot.
 # These are the available sectors:
@@ -68,7 +68,7 @@ gas = 'CH4'
 # 'M.AG.ELV'    (Agriculture excluding livestock)
 # '4'           (Waste)
 # '5'           (Other)
-primap_sector = '2'
+primap_sector = 'M.0.EL'
 
 # If plotting energy data, please select the variable that you want to plot
 # Options are:      1: Share of renewables in electricity
@@ -143,7 +143,7 @@ energy_variable = 1
 #                               'Energy systems (indirect)'
 #                               'Industry (indirect)'
 #                               'Transport (indirect)'
-ipcc_sector_or_subsector = 'Total (excl. LULUCF)'
+ipcc_sector_or_subsector = 'Non-residential [Buildings]'
 
 # Select the data type that you want to plot:
 # Options are:      'absolute'
@@ -152,11 +152,11 @@ ipcc_sector_or_subsector = 'Total (excl. LULUCF)'
 # WARNING:  Per capita and per USD measures do not apply to the following variables: share of renewables in electricity and share of fossil
 #           fuels in primary energy consumed.
 #if dataset == 3:
-data_type = 'per capita'
+data_type = 'absolute'
 
 # Select the type of plot that you want to create:
 # Options are:      1: Distribution of variable in specified year.
 #                   2: Change of variable since specified year.
 #                   3: 5-year average trend in the specified year.
 #                   4: Year of peaking
-plot_type = 3
+plot_type = 1
